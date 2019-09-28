@@ -1,4 +1,4 @@
-PokemonNames::
+﻿PokemonNames::
 	db "BULBASAUR@"
 	db "IVYSAUR@@@"
 	db "VENUSAUR@@"
@@ -17,7 +17,7 @@ PokemonNames::
 	db "PIDGEY@@@@"
 	db "PIDGEOTTO@"
 	db "PIDGEOT@@@"
-	db "RATTATA@@@"
+	db "KORATTA@@@"
 	db "RATICATE@@"
 	db "SPEAROW@@@"
 	db "FEAROW@@@@"
