@@ -106,6 +106,7 @@ AlphabeticalPokedexOrder:
 	db KINGDRA
 	db KINGLER
 	db KOFFING
+	db KORATTA
 	db KRABBY
 	db LANTURN
 	db LAPRAS
@@ -182,7 +183,6 @@ AlphabeticalPokedexOrder:
 	db RAIKOU
 	db RAPIDASH
 	db RATICATE
-	db RATTATA
 	db REMORAID
 	db RHYDON
 	db RHYHORN
