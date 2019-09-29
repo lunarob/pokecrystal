@@ -27,10 +27,10 @@ PokemonCries::
 <<<<<<< HEAD
 	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
 =======
-	mon_cry CRY_RATTATA,     $000,  $100 ; KORATTA
+	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
 >>>>>>> parent of 61e694edf... More tries
 =======
-	mon_cry CRY_RATTATA,     $000,  $100 ; KORATTA
+	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
 >>>>>>> parent of 61e694edf... More tries
 	mon_cry CRY_RATTATA,     $020,  $17f ; RATICATE
 	mon_cry CRY_SPEAROW,     $000,  $100 ; SPEAROW
