@@ -261,7 +261,7 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, KORATTA!"
+	text "Go, RATTATA!"
 
 	para "TACKLE!"
 	done
