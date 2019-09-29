@@ -38,8 +38,8 @@ PokemonPicPointers::
 	dba_pic PidgeottoBackpic
 	dba_pic PidgeotFrontpic
 	dba_pic PidgeotBackpic
-	dba_pic KorattaFrontpic
-	dba_pic KorattaBackpic
+	dba_pic RattataFrontpic
+	dba_pic RattataBackpic
 	dba_pic RaticateFrontpic
 	dba_pic RaticateBackpic
 	dba_pic SpearowFrontpic
