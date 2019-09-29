@@ -23,7 +23,11 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDGEY
 	mon_cry CRY_PIDGEOTTO,   $028,  $140 ; PIDGEOTTO
 	mon_cry CRY_PIDGEOTTO,   $011,  $17f ; PIDGEOT
+<<<<<<< HEAD
 	mon_cry CRY_RATTATA,     $000,  $100 ; RATTATA
+=======
+	mon_cry CRY_RATTATA,     $000,  $100 ; KORATTA
+>>>>>>> parent of 61e694edf... More tries
 	mon_cry CRY_RATTATA,     $020,  $17f ; RATICATE
 	mon_cry CRY_SPEAROW,     $000,  $100 ; SPEAROW
 	mon_cry CRY_FEAROW,      $040,  $120 ; FEAROW
