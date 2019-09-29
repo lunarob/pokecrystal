@@ -17,7 +17,7 @@ EggMovePointers::
 	dw PidgeyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw KorattaEggMoves
+	dw RattataEggMoves
 	dw NoEggMoves
 	dw SpearowEggMoves
 	dw NoEggMoves
