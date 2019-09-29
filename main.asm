@@ -571,7 +571,7 @@ SECTION "Mobile 5C", ROMX
 INCLUDE "mobile/mobile_5c.asm"
 
 
-SECTION "Crystal Phone Text2", ROMX
+SECTION "Crystal Phone Text 2", ROMX
 
 INCLUDE "data/phone/text/bike_shop.asm"
 INCLUDE "data/phone/text/jack_caller.asm"
