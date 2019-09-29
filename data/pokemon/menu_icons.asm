@@ -19,8 +19,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; PIDGEY
 	db ICON_BIRD        ; PIDGEOTTO
 	db ICON_BIRD        ; PIDGEOT
-	db ICON_FOX         ; KORATTA	
-	db ICON_FOX         ; RATICATE
+	db ICON_FOX         ; KORATTA	db ICON_FOX         ; RATICATE
 	db ICON_BIRD        ; SPEAROW
 	db ICON_BIRD        ; FEAROW
 	db ICON_SERPENT     ; EKANS
