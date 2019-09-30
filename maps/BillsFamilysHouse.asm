@@ -109,7 +109,7 @@ BillsHouseRadio:
 BillTakeThisEeveeText:
 	text "BILL: Hi, <PLAYER>!"
 	line "Do us a favor and"
-	cont "take this EEVEE."
+	cont "take this EIEVUI."
 
 	para "It came over when"
 	line "I was adjusting"
@@ -142,12 +142,12 @@ BillImCountingOnYouText:
 
 ReceivedEeveeText:
 	text "<PLAYER> received"
-	line "EEVEE!"
+	line "EIEVUI!"
 	done
 
 BillEeveeMayEvolveText:
 	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	line "claims EIEVUI may"
 
 	para "evolve in new and"
 	line "unknown ways."
@@ -183,7 +183,7 @@ BillsPopText:
 	para "He just got called"
 	line "to the #MON"
 
-	para "CENTER in ECRUTEAK"
+	para "CENTER in ENJU"
 	line "CITY."
 
 	para "My husband went"

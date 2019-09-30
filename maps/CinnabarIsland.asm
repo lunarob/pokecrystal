@@ -101,7 +101,7 @@ CinnabarIslandBlueText:
 
 	para "If you want to"
 	line "battle me, come to"
-	cont "the VIRIDIAN GYM."
+	cont "the TOKIWA GYM."
 
 	para "I'll take you on"
 	line "then."
@@ -111,18 +111,18 @@ CinnabarIslandGymSignText:
 	text "There's a notice"
 	line "here…"
 
-	para "CINNABAR GYM has"
-	line "relocated to SEA-"
-	cont "FOAM ISLANDS."
+	para "GUREN GYM has"
+	line "relocated to"
+	cont "TWIN ISLANDS."
 
 	para "BLAINE"
 	done
 
 CinnabarIslandSignText:
-	text "CINNABAR ISLAND"
+	text "GUREN TOWN"
 
-	para "The Fiery Town of"
-	line "Burning Desire"
+	para "The Fiery Island"
+	line "of Burning Desire"
 	done
 
 CinnabarIsland_MapEvents:

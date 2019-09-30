@@ -76,7 +76,7 @@ CharcoalKilnRadio:
 	jumpstd radio2
 
 CharcoalKilnBossText1:
-	text "All the SLOWPOKE"
+	text "All the YADON"
 	line "have disappeared"
 	cont "from the town."
 
@@ -90,12 +90,12 @@ CharcoalKilnBossText1:
 	done
 
 CharcoalKilnBossText2:
-	text "The SLOWPOKE have"
+	text "The YADON have"
 	line "returned…"
 
 	para "But my APPRENTICE"
 	line "hasn't come back"
-	cont "from ILEX FOREST."
+	cont "from UBAME FOREST."
 
 	para "Where in the world"
 	line "is that lazy guy?"
@@ -105,7 +105,7 @@ CharcoalKilnBossText3:
 	text "You chased off"
 	line "TEAM ROCKET and"
 
-	para "went to ILEX"
+	para "went to UBAME"
 	line "FOREST alone?"
 
 	para "That takes guts!"
@@ -115,7 +115,7 @@ CharcoalKilnBossText3:
 
 CharcoalKilnApprenticeText1:
 	text "Where have all the"
-	line "SLOWPOKE gone?"
+	line "YADON gone?"
 
 	para "Are they out play-"
 	line "ing somewhere?"
@@ -134,16 +134,16 @@ CharcoalKilnApprenticeText2:
 	done
 
 CharcoalKilnApprenticeText3:
-	text "The SLOWPOKE came"
+	text "The YADON came"
 	line "back, and you even"
-	cont "found FARFETCH'D."
+	cont "found KAMONEGI."
 
 	para "You're the cool-"
 	line "est, man!"
 	done
 
 FarfetchdText:
-	text "FARFETCH'D: Kwaa!"
+	text "KAMONEGI: Kwaa!"
 	done
 
 CharcoalKiln_MapEvents:

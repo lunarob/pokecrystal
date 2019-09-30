@@ -196,34 +196,35 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Oops! I so sorry!"
-	line "You not hurt,"
-	cont "okay?"
+	text "Oops! Sorry!"
+	line "You're not hurt,"
+	cont "are you?"
 
-	para "I very busy."
-	line "No time for talk-"
-	cont "ing with you. Not"
-	cont "good for me if"
-	cont "seen by somebody."
+	para "I'm very busy,"
+	line "though. No time"
+	cont "for talking with"
+	cont "you. I can't be"
+	cont "seen by anybody."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Oh no! You seen"
-	line "me already! I make"
-	cont "big mistake!"
+	text "Oh wait! You've"
+	line "seen me already!"
+	cont "I've made a big"
+	cont "mistake!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Hey, you! Forget"
-	line "you see me, okay?"
+	text "Hey, wait! Forget"
+	line "you saw me, okay?"
 
-	para "You see, hear,"
+	para "You saw, heard,"
 	line "know nothing,"
 
 	para "okay?"
-	line "Bye, kid! Nothing!"
+	line "Bye, kid!"
 
-	para "Bye-bye a go-go!"
+	para "I'm off!"
 	done
 
 CeruleanGymNote1Text:

@@ -436,23 +436,24 @@ CherrygroveRivalText_Seen:
 	para "You got a #MON"
 	line "at the LAB."
 
-	para "What a waste."
-	line "A wimp like you."
+	para "It's a waste,"
+	line "giving it to a"
+	line "wimp like you."
 
 	para "<……> <……> <……>"
 
-	para "Don't you get what"
-	line "I'm saying?"
+	para "Don't you see"
+	line "what I'm saying?"
 
 	para "Well, I too, have"
 	line "a good #MON."
 
-	para "I'll show you"
+	para "Let me show you"
 	line "what I mean!"
 	done
 
 SilverCherrygroveWinText:
-	text "Humph. Are you"
+	text "Well… are you"
 	line "happy you won?"
 	done
 
@@ -462,13 +463,13 @@ CherrygroveRivalText_YouLost:
 	para "My name's ???."
 
 	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
+	line "the world's stron-"
+	cont "gest #MON"
 	cont "trainer."
 	done
 
 SilverCherrygroveLossText:
-	text "Humph. That was a"
+	text "Haha… what a"
 	line "waste of time."
 	done
 
@@ -478,8 +479,8 @@ CherrygroveRivalText_YouWon:
 	para "My name's ???."
 
 	para "I'm going to be"
-	line "the world's great-"
-	cont "est #MON"
+	line "the world's stron-"
+	cont "gest #MON"
 	cont "trainer."
 	done
 
@@ -534,14 +535,14 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "CHERRYGROVE CITY"
+	text "YOSHINO CITY"
 
 	para "The City of Cute,"
 	line "Fragrant Flowers"
 	done
 
 GuideGentsHouseSignText:
-	text "GUIDE GENT'S HOUSE"
+	text "GUIDE'S HOUSE"
 	done
 
 CherrygroveCity_MapEvents:

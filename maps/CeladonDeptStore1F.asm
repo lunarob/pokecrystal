@@ -25,7 +25,7 @@ CeladonDeptStore1FElevatorButton:
 
 CeladonDeptStore1FReceptionistText:
 	text "Hello! Welcome to"
-	line "CELADON DEPT."
+	line "TAMAMUSHI DEPT."
 	cont "STORE!"
 
 	para "The directory is"
@@ -37,7 +37,7 @@ CeladonDeptStore1FGentlemanText:
 	line "part of the same"
 
 	para "chain as the one"
-	line "in GOLDENROD CITY."
+	line "in KOGANE CITY."
 
 	para "They were both"
 	line "renovated at the"

@@ -49,16 +49,16 @@ CeladonMansionManagerText:
 	para "so I don't ever"
 	line "feel lonely."
 
-	para "MEOWTH even brings"
+	para "NYARTH even brings"
 	line "money home."
 	done
 
 CeladonMansion1FMeowthText:
-	text "MEOWTH: Meow!"
+	text "NYARTH: Meow!"
 	done
 
 CeladonMansion1FClefairyText:
-	text "CLEFAIRY: Clef"
+	text "PIPPI: Clef"
 	line "cleff!"
 	done
 
@@ -68,7 +68,7 @@ CeladonMansion1FNidoranFText:
 	done
 
 CeladonMansionManagersSuiteSignText:
-	text "CELADON MANSION"
+	text "TAMAMUSHI MANSION"
 	line "MANAGER'S SUITE"
 	done
 

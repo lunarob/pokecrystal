@@ -67,7 +67,7 @@ DaisyHelloText:
 	text "DAISY: Hi! My kid"
 	line "brother is the GYM"
 
-	para "LEADER in VIRIDIAN"
+	para "LEADER in TOKIWA"
 	line "CITY."
 
 	para "But he goes out"

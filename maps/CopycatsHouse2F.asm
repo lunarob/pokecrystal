@@ -199,14 +199,15 @@ CopycatSpinAroundMovementData:
 	step_end
 
 CopycatText_Male_1:
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Hi!"
+	line "What's you name?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Oh, wait"
+	line "I just asked you."
 
 	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	line "You're a bit"
+	line "strange!"
 	done
 
 CopycatText_QuickMimicking:
@@ -225,19 +226,19 @@ CopycatText_Male_2:
 	line "# DOLL."
 
 	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail PASS?"
+	line "it, will you lend"
+	cont "me a rail PASS?"
 
 	para "<PLAYER>: I'll go"
 	line "find it for you."
 
 	para "You think you lost"
 	line "it when you went"
-	cont "to VERMILION CITY?"
+	cont "to KUCHIBA CITY?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "COPYCAT: Huh?"
 
 	para "I shouldn't decide"
 	line "what you should"
@@ -250,7 +251,7 @@ CopycatText_Worried:
 
 CopycatText_GiveDoll:
 	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
+	line "That's my PIPPI"
 	cont "# DOLL!"
 
 	para "See the tear where"
@@ -281,19 +282,21 @@ CopycatText_ExplainPass:
 
 CopycatText_Male_3:
 	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
+	line "Thanks so much for"
 	cont "the rail PASS!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: What's"
+	line "that?"
 
 	para "<PLAYER>: Is it"
 	line "that fun to mimic"
-	cont "my every move?"
+	cont "my every word?"
 	done
 
 CopycatText_ItsAScream:
 	text "COPYCAT: You bet!"
-	line "It's a scream!"
+	line "It's so enter-"
+	cont "taining!"
 	done
 
 CopycatText_Female_1:
@@ -340,7 +343,7 @@ CopycatText_Female_3:
 	done
 
 CopycatsDodrioText1:
-	text "DODRIO: Gii giii!"
+	text "DODORIO: Gii giii!"
 	done
 
 CopycatsDodrioText2:

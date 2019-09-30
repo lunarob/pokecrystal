@@ -76,7 +76,7 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "This POLIWRATH is"
+	text "This NYOROBON is"
 	line "my partner."
 
 	para "I wonder if it'll"
@@ -85,7 +85,7 @@ CeladonCityFisherText:
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Croak!"
+	text "NYOROBON: Croak!"
 	done
 
 CeladonCityTeacher1Text:
@@ -106,14 +106,14 @@ else
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER have been"
+	text "BETBETER have been"
 	line "appearing lately."
 
 	para "See that pond out"
 	line "in front of the"
 
-	para "house? GRIMER live"
-	line "there now."
+	para "house? BETBETER"
+	line "live there now."
 
 	para "Where did they"
 	line "come from? This is"
@@ -132,7 +132,7 @@ CeladonCityYoungster1Text:
 	text "Want to know a"
 	line "secret?"
 
-	para "CELADON MANSION"
+	para "TAMAMUSHI MANSION"
 	line "has a hidden back"
 	cont "door."
 	done
@@ -148,11 +148,12 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "CELADON DEPT.STORE"
-	line "has the biggest"
+	text "TAMAMUSHI DEPT."
+	line "STORE has the"
 
-	para "and best selection"
-	line "of merchandise."
+	para "biggest and best"
+	line "selection of"
+	cont "merchandise."
 
 	para "If you can't get"
 	line "it there, you"
@@ -171,7 +172,7 @@ CeladonCityLassText_Mobile:
 	cont "buildings!"
 
 	para "Isn't it true that"
-	line "GOLDENROD #MON"
+	line "KOGANE #MON"
 
 	para "CENTER was made"
 	line "much, much bigger?"
@@ -192,14 +193,14 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "CELADON CITY"
+	text "TAMAMUSHI CITY"
 
 	para "The City of"
 	line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "CELADON CITY"
+	text "TAMAMUSHI CITY"
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
@@ -209,23 +210,25 @@ CeladonGymSignText:
 
 CeladonCityDeptStoreSignText:
 	text "Find What You"
-	line "Need at CELADON"
+	line "Need at TAMAMUSHI"
 	cont "DEPT.STORE!"
 	done
 
 CeladonCityMansionSignText:
-	text "CELADON MANSION"
+	text "TAMAMUSHI MANSION"
 	done
 
 CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
 	text "The Game Area for"
-	line "Grown-ups--CELADON"
+	line "Grown-ups--"
+	cont "TAMAMUSHI"
 	cont "GAME CORNER"
 	done
 else
 	text "The Playground for"
-	line "Everybody--CELADON"
+	line "Everybody--"
+	cont "TAMAMUSHI"
 	cont "GAME CORNER"
 	done
 endc
@@ -241,7 +244,7 @@ CeladonCityTrainerTipsText:
 	cont "fire and water."
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "TAMAMUSHI DEPT."
 	cont "STORE!"
 	done
 

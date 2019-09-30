@@ -16,7 +16,7 @@ BillsBrothersHouseYoungsterScript:
 BillsBrotherText:
 	text "My grandpa is at "
 	line "my brother BILL's"
-	cont "on CERULEAN CAPE."
+	cont "on HANADA CAPE."
 	done
 
 BillsBrothersHouseYoungsterText:

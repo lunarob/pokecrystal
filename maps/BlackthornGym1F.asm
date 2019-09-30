@@ -263,7 +263,7 @@ BlackthornGymClairText_League:
 	line "where it is?"
 
 	para "From here, go to"
-	line "NEW BARK TOWN."
+	line "WAKABA TOWN."
 
 	para "Then SURF east."
 	line "The route there is"

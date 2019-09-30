@@ -318,7 +318,7 @@ AzaleaTownRocket1Text:
 
 AzaleaTownRocket2Text:
 	text "Do you know about"
-	line "SLOWPOKETAIL? I"
+	line "YADONTAIL? I"
 	cont "heard it's tasty!"
 
 	para "Aren't you glad I"
@@ -326,7 +326,7 @@ AzaleaTownRocket2Text:
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
+	text "The YADON have"
 	line "disappeared from"
 	cont "town…"
 
@@ -336,7 +336,7 @@ AzaleaTownGrampsTextBefore:
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
+	text "The YADON have"
 	line "returned."
 
 	para "Knowing them, they"
@@ -356,9 +356,9 @@ AzaleaTownTeacherText:
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
+	text "Cut through HIWADA"
 	line "and you'll be in"
-	cont "ILEX FOREST."
+	cont "UBAME FOREST."
 
 	para "But these skinny"
 	line "trees make it"
@@ -372,7 +372,7 @@ AzaleaTownYoungsterText:
 	done
 
 AzaleaTownSlowpokeText1:
-	text "SLOWPOKE: …"
+	text "YADON: …"
 
 	para "<……> <……> <……>"
 	done
@@ -386,7 +386,7 @@ WoosterText:
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
+	text "UBAME FOREST is"
 	line "restless!"
 
 	para "What is going on?"
@@ -399,12 +399,12 @@ AzaleaTownKurtText2:
 
 AzaleaTownKurtText3:
 	text "Could you go see"
-	line "why ILEX FOREST is"
+	line "why UBAME FOREST is"
 	cont "so restless?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
+	text "HIWADA TOWN"
 	line "Where People and"
 
 	para "#MON Live in"
@@ -416,7 +416,7 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
+	text "HIWADA TOWN"
 	line "#MON GYM"
 	cont "LEADER: BUGSY"
 
@@ -426,17 +426,17 @@ AzaleaGymSignText:
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "YADON WELL"
 
 	para "Also known as the"
 	line "RAINMAKER WELL."
 
 	para "Locals believe"
-	line "that a SLOWPOKE's"
+	line "that a YADON's"
 	cont "yawn summons rain."
 
 	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	line "a YADON's yawn"
 
 	para "ended a drought"
 	line "400 years ago."
@@ -447,7 +447,7 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "UBAME FOREST"
 
 	para "Enter through the"
 	line "gate."
