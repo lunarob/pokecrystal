@@ -8,18 +8,18 @@ JohtoGrassWildMons:
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 3, ABRA ;edit
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 5, ABRA ;edit
+	db 5, ABRA ;edit
 	; day
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 3, ABRA ;edit
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 5, ABRA ;edit
+	db 5, ABRA ;edit
 	; nite
 	db 3, GASTLY
 	db 4, GASTLY
@@ -277,25 +277,25 @@ JohtoGrassWildMons:
 	; morn
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
-	db 14, ZUBAT
+	db 13, GRIMER ;edit
+	db 14, CUBONE ;edit
 	db 15, RATTATA
 	db 15, RATICATE
 	db 15, RATICATE
 	; day
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
-	db 14, ZUBAT
+	db 13, GRIMER ;edit
+	db 14, CUBONE ;edit
 	db 15, RATTATA
 	db 15, RATICATE
 	db 15, RATICATE
 	; nite
 	db 13, RATTATA
 	db 14, KOFFING
-	db 15, RATTATA
+	db 13, GASTLY ;edit
 	db 14, ZUBAT
-	db 15, RATTATA
+	db 14, GASTLY ;edit
 	db 15, RATICATE
 	db 15, RATICATE
 
@@ -304,26 +304,26 @@ JohtoGrassWildMons:
 	; morn
 	db 14, RATTATA
 	db 14, KOFFING
-	db 16, KOFFING
+	db 16, GRIMER ;edit
 	db 15, ZUBAT
 	db 12, KOFFING
-	db 16, KOFFING
+	db 16, WEEZING ;edit
 	db 16, WEEZING
 	; day
 	db 14, RATTATA
 	db 14, KOFFING
-	db 16, KOFFING
+	db 16, GRIMER ;edit
 	db 15, ZUBAT
 	db 12, KOFFING
-	db 16, KOFFING
+	db 16, WEEZING ;edit
 	db 16, WEEZING
 	; nite
 	db 14, RATTATA
 	db 14, KOFFING
-	db 16, KOFFING
+	db 15, GASTLY ;edit
 	db 15, ZUBAT
-	db 12, KOFFING
-	db 16, KOFFING
+	db 16, HAUNTER ;edit
+	db 16, WEEZING ;edit
 	db 16, WEEZING
 
 	map_id NATIONAL_PARK
@@ -333,22 +333,22 @@ JohtoGrassWildMons:
 	db 12, NIDORAN_F
 	db 14, LEDYBA
 	db 13, PIDGEY
-	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, AIPOM ;edit
+	db 10, MARILL ;edit
+	db 10, MARILL ;edit
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
 	db 14, SUNKERN
 	db 13, PIDGEY
-	db 10, CATERPIE
-	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, AIPOM ;edit
+	db 10, MARILL ;edit
+	db 10, MARILL ;edit
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
 	db 14, SPINARAK
-	db 15, HOOTHOOT
+	db 10, PICHU ;edit
 	db 10, VENONAT
 	db 12, VENONAT
 	db 12, VENONAT
@@ -413,16 +413,16 @@ JohtoGrassWildMons:
 	db 6, GEODUDE
 	db 6, SANDSHREW
 	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
+	db 4, CUBONE ;edit
+	db 4, MAGBY ;edit
 	db 6, ONIX
 	db 6, ONIX
 	; day
 	db 6, GEODUDE
 	db 6, SANDSHREW
 	db 5, ZUBAT
-	db 4, RATTATA
-	db 7, ZUBAT
+	db 4, CUBONE ;edit
+	db 4, MAGBY ;edit
 	db 6, ONIX
 	db 6, ONIX
 	; nite
@@ -430,7 +430,7 @@ JohtoGrassWildMons:
 	db 6, RATTATA
 	db 5, WOOPER
 	db 4, RATTATA
-	db 7, ZUBAT
+	db 4, MAGBY ;edit
 	db 6, ONIX
 	db 6, ONIX
 
@@ -441,7 +441,7 @@ JohtoGrassWildMons:
 	db 6, ZUBAT
 	db 8, ZUBAT
 	db 8, ONIX
-	db 6, RATTATA
+	db 6, CUBONE ;edit
 	db 8, RATTATA
 	db 8, RATTATA
 	; day
@@ -449,7 +449,7 @@ JohtoGrassWildMons:
 	db 6, ZUBAT
 	db 8, ZUBAT
 	db 8, ONIX
-	db 6, RATTATA
+	db 6, CUBONE ;edit
 	db 8, RATTATA
 	db 8, RATTATA
 	; nite
@@ -563,9 +563,9 @@ JohtoGrassWildMons:
 	; nite
 	db 5, ODDISH
 	db 5, VENONAT
-	db 7, ODDISH
-	db 7, PSYDUCK
 	db 7, HOOTHOOT
+	db 7, PSYDUCK
+	db 5, PICHU ;edit
 	db 6, PARAS
 	db 6, PARAS
 
@@ -1142,7 +1142,7 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
-	db 4, GEODUDE
+	db 4, SANDSHREW ;edit
 	db 2, TEDDIURSA
 	db 4, ZUBAT
 	db 4, DUNSPARCE
@@ -1150,15 +1150,15 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
-	db 4, GEODUDE
-	db 2, ZUBAT
+	db 4, SANDSHREW ;edit
+	db 2, TEDDIURSA ;edit
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	; nite
 	db 3, GEODUDE
 	db 2, ZUBAT
 	db 2, GEODUDE
-	db 4, GEODUDE
+	db 4, SANDSHREW ;edit
 	db 2, ZUBAT
 	db 4, ZUBAT
 	db 4, DUNSPARCE
@@ -1231,7 +1231,7 @@ JohtoGrassWildMons:
 	db 3, PIDGEY
 	db 3, CATERPIE
 	db 4, CATERPIE
-	db 4, PIDGEY
+	db 4, POLIWAG ;edit
 	db 3, WEEDLE
 	db 4, HOPPIP
 	db 4, HOPPIP
@@ -1250,7 +1250,7 @@ JohtoGrassWildMons:
 	db 4, LEDYBA
 	db 4, CATERPIE
 	db 5, BELLSPROUT
-	db 5, PIDGEY
+	db 5, ABRA ;edit
 	db 4, WEEDLE
 	db 5, HOPPIP
 	db 5, HOPPIP
@@ -1258,15 +1258,15 @@ JohtoGrassWildMons:
 	db 4, PIDGEY
 	db 4, CATERPIE
 	db 5, BELLSPROUT
-	db 5, PIDGEY
+	db 5, ABRA ;edit
 	db 4, WEEDLE
 	db 5, HOPPIP
 	db 5, HOPPIP
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
-	db 5, BELLSPROUT
-	db 5, HOOTHOOT
+	db 5, HOOTHOOT ;edit
+	db 5, NATU ;edit
 	db 4, ZUBAT
 	db 5, GASTLY
 	db 5, GASTLY
@@ -1277,7 +1277,7 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, MAREEP ;edit
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
@@ -1285,7 +1285,7 @@ JohtoGrassWildMons:
 	db 4, EKANS
 	db 5, RATTATA
 	db 7, BELLSPROUT
-	db 6, HOPPIP
+	db 6, MAREEP ;edit
 	db 7, PIDGEY
 	db 7, HOPPIP
 	db 7, HOPPIP
@@ -1306,16 +1306,16 @@ JohtoGrassWildMons:
 	db 6, GEODUDE
 	db 6, HOPPIP
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, AIPOM ;edit
+	db 7, AIPOM ;edit
 	; day
 	db 6, RATTATA
 	db 6, SPEAROW
 	db 6, GEODUDE
 	db 6, HOPPIP
 	db 7, EKANS
-	db 7, HOPPIP
-	db 7, HOPPIP
+	db 7, AIPOM ;edit
+	db 7, AIPOM ;edit
 	; nite
 	db 6, RATTATA
 	db 6, ZUBAT
@@ -1332,7 +1332,7 @@ JohtoGrassWildMons:
 	db 11, RATTATA
 	db 12, PIDGEY
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, IGGLYBUFF ;edit
 	db 10, DITTO
 	db 10, DITTO
 	; day
@@ -1340,7 +1340,7 @@ JohtoGrassWildMons:
 	db 11, RATTATA
 	db 12, PIDGEY
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, IGGLYBUFF ;edit
 	db 10, DITTO
 	db 10, DITTO
 	; nite
@@ -1348,7 +1348,7 @@ JohtoGrassWildMons:
 	db 11, RATTATA
 	db 12, HOOTHOOT
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, CLEFFA ;edit
 	db 10, DITTO
 	db 10, DITTO
 
@@ -1359,7 +1359,7 @@ JohtoGrassWildMons:
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MEOWTH ;edit
 	db 10, DITTO
 	db 12, YANMA
 	; day
@@ -1367,7 +1367,7 @@ JohtoGrassWildMons:
 	db 14, PIDGEY
 	db 13, GROWLITHE
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MEOWTH ;edit
 	db 10, DITTO
 	db 12, YANMA
 	; nite
@@ -1375,7 +1375,7 @@ JohtoGrassWildMons:
 	db 14, HOOTHOOT
 	db 13, PSYDUCK
 	db 10, ABRA
-	db 12, JIGGLYPUFF
+	db 12, MEOWTH ;edit
 	db 10, DITTO
 	db 12, YANMA
 
@@ -1383,20 +1383,20 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, PIDGEY
-	db 5, BELLSPROUT
-	db 5, GROWLITHE
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	db 4, BELLSPROUT ;edit prob
+	db 5, GROWLITHE ;edit prob
+	db 5, TANGELA ;edit
+	db 5, TANGELA ;edit
+	db 6, TANGELA ;edit
+	db 6, TANGELA ;edit
 	; day
 	db 4, PIDGEY
-	db 4, PIDGEY
-	db 5, BELLSPROUT
-	db 5, GROWLITHE
-	db 5, PIDGEY
-	db 6, PIDGEY
-	db 6, PIDGEY
+	db 4, BELLSPROUT ;edit prob
+	db 5, GROWLITHE ;edit prob
+	db 5, VULPIX ;edit
+	db 5, VULPIX ;edit
+	db 6, VULPIX ;edit
+	db 6, VULPIX ;edit
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
@@ -1417,18 +1417,18 @@ JohtoGrassWildMons:
 	db 15, LEDIAN
 	db 15, LEDIAN
 	; day
-	db 13, PIDGEY
+	db 13, SENTRET ;edit
 	db 14, GROWLITHE
 	db 15, PIDGEY
 	db 16, GROWLITHE
 	db 15, PIDGEOTTO
-	db 15, PIDGEY
-	db 15, PIDGEY
+	db 15, FURRET ;edit
+	db 15, FURRET ;edit
 	; nite
 	db 13, SPINARAK
 	db 14, STANTLER
 	db 15, HOOTHOOT
-	db 16, STANTLER
+	db 16, SKARMORY ;edit
 	db 15, NOCTOWL
 	db 15, ARIADOS
 	db 15, ARIADOS
@@ -1436,7 +1436,7 @@ JohtoGrassWildMons:
 	map_id ROUTE_38
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, RATTATA
+	db 16, PONYTA ;edit
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
@@ -1444,7 +1444,7 @@ JohtoGrassWildMons:
 	db 13, MILTANK
 	db 13, MILTANK
 	; day
-	db 16, RATTATA
+	db 16, PONYTA ;edit
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
@@ -1456,14 +1456,14 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 16, MEOWTH
-	db 16, MEOWTH
-	db 16, MEOWTH
+	db 12, ELEKID ;edit
+	db 12, ELEKID ;edit
+	db 12, ELEKID ;edit
 
 	map_id ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 16, RATTATA
+	db 16, PONYTA ;edit
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
@@ -1471,7 +1471,7 @@ JohtoGrassWildMons:
 	db 15, TAUROS
 	db 15, TAUROS
 	; day
-	db 16, RATTATA
+	db 16, PONYTA ;edit
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, PIDGEOTTO
@@ -1483,9 +1483,9 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 18, MEOWTH
-	db 18, MEOWTH
-	db 18, MEOWTH
+	db 12, ELEKID ;edit
+	db 12, ELEKID ;edit
+	db 12, ELEKID ;edit
 
 	map_id ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1603,24 +1603,24 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, PHANPY
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, IGGLYBUFF ;edit
+	db 2, IGGLYBUFF ;edit
 	; day
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, PHANPY ;edit
+	db 2, IGGLYBUFF ;edit
+	db 2, IGGLYBUFF ;edit
 	; nite
 	db 2, GEODUDE
 	db 2, RATTATA
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, RATTATA
-	db 2, RATTATA
-	db 2, RATTATA
+	db 2, CLEFFA ;edit
+	db 2, CLEFFA ;edit
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
