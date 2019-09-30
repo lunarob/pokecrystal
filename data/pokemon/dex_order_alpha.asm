@@ -87,7 +87,7 @@ AlphabeticalPokedexOrder:
 	db STARYU
 	db CHARMANDER
 	db HOOTHOOT
-	db HO-OH
+	db HO_OH
 	db PILOSWINE
 	db GEODUDE
 	db SPINARAK
@@ -141,7 +141,7 @@ AlphabeticalPokedexOrder:
 	db MEWTWO
 	db MILTANK
 	db DRATINI
-	db FLAAFY
+	db FLAAFFY
 	db TANGELA
 	db VENOMOTH
 	db SMOOCHUM
@@ -200,7 +200,7 @@ AlphabeticalPokedexOrder:
 	db MAGNETON
 	db RATICATE
 	db LEDIAN
-	db LEDIBA
+	db LEDYBA
 	db URSARING
 	db VULPIX
 	db JYNX
