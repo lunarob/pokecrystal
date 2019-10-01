@@ -3495,3 +3495,11 @@ MysticalmanGroup:
 	db 23, HAUNTER,    LICK, HYPNOSIS, MEAN_LOOK, CURSE
 	db 25, ELECTRODE,  SCREECH, SONICBOOM, THUNDER, ROLLOUT
 	db -1 ; end
+
+ParasolLadyGroup:
+	; PARASOL_LADY (1)
+	db "ANNA@", TRAINERTYPE_NORMAL
+	db 28, GOLDEEN
+	db 28, SUNFLORA
+	db 30, GOLDUCK
+	db -1 ; end

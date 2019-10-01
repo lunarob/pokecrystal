@@ -68,3 +68,6 @@ BTTrainerClassGenders:
 	db MALE   ; BLUE
 	db MALE   ; OFFICER
 	db FEMALE ; GRUNTF
+	db MALE   ; MYSTICALMAN
+	db FEMALE ; PARASOL_LADY
+	
