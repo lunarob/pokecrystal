@@ -3503,3 +3503,15 @@ ParasolLadyGroup:
 	db 28, SUNFLORA
 	db 30, GOLDUCK
 	db -1 ; end
+
+GiovanniGroup:
+	; Giovanni (1)
+	db "GIOVANNI@", TRAINERTYPE_NORMAL
+	db 30, PERSIAN
+	db -1 ; end
+
+PoketrainerGroup:
+	; Poketrainer (1)
+	db "KRIS@", TRAINERTYPE_NORMAL
+	db 15, MARILL
+	db -1 ; end

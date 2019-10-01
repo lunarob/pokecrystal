@@ -71,3 +71,5 @@ TrainerEncounterMusic::
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman
 	db MUSIC_BEAUTY_ENCOUNTER      ; parasol_lady
+	db MUSIC_ROCKET_ENCOUNTER	   ; giovanni
+	db MUSIC_LASS_ENCOUNTER        ; poketrainer

@@ -700,7 +700,13 @@ KRIS EQU __enum__
 	trainerclass MYSTICALMAN ; 43
 	const EUSINE
 	
-	trainerclass PARASOL_LADY
+	trainerclass PARASOL_LADY ; 44
 	const ANNA
+	
+	trainerclass GIOVANNI ; 45
+	const GIOVANNI_T
+	
+	trainerclass POKETRAINER ; 46
+	const KRIS_T
 
 NUM_TRAINER_CLASSES EQU __enum__

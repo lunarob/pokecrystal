@@ -70,3 +70,5 @@ TrainerPicPointers::
 	dba_pic GruntfPic
 	dba_pic MysticalmanPic
 	dba_pic ParasolLadyPic
+	dba_pic GiovanniPic
+	dba_pic PoketrainerPic

@@ -67,4 +67,6 @@ TrainerClassNames::
 	db "OFFICER@"
 	db "ROCKET@"
 	db "MYSTICALMAN@"
-	db "PARASOL LADY@"
+	db "PARASOL LADY@" ; Added
+	db "BOSS@" ; Added
+	db "<PKMN> TRAINER@" ; Added

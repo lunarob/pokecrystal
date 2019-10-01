@@ -74,9 +74,9 @@ CloysterFrontpic:    INCBIN "gfx/pokemon/cloyster/front.animated.2bpp.lz"
 SkarmoryFrontpic:    INCBIN "gfx/pokemon/skarmory/front.animated.2bpp.lz"
 DewgongFrontpic:     INCBIN "gfx/pokemon/dewgong/front.animated.2bpp.lz"
 VictreebelFrontpic:  INCBIN "gfx/pokemon/victreebel/front.animated.2bpp.lz"
-RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
-PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 ; Removed OmastarBackPic to make room to PARASOL_LADY - see Pics 19
+; RaichuFrontpic
+; PrimeapeFrontpic
 
 
 SECTION "Pics 4", ROMX
@@ -715,7 +715,11 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 SECTION "Pics 19", ROMX
 
 ParasolLadyPic:      INCBIN "gfx/trainers/parasol_lady.2bpp.lz"
+GiovanniPic:		 INCBIN "gfx/trainers/giovanni.2bpp.lz"
+PoketrainerPic:	     INCBIN "gfx/trainers/poketrainer.2bpp.lz"
 OmastarBackpic:      INCBIN "gfx/pokemon/omastar/back.2bpp.lz"
+RaichuFrontpic:      INCBIN "gfx/pokemon/raichu/front.animated.2bpp.lz"
+PrimeapeFrontpic:    INCBIN "gfx/pokemon/primeape/front.animated.2bpp.lz"
 
 ; Sections "Pics 20" to "Pics 24" are not used for any graphics,
 ; but entries for their banks exist in FixPicBank (see engine/gfx/load_pics.asm).

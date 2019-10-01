@@ -70,4 +70,6 @@ TrainerGroups:
 	dw GruntFGroup
 	dw MysticalmanGroup
 	dw ParasolLadyGroup
+	dw GiovanniGroup
+	dw PoketrainerGroup
 	
