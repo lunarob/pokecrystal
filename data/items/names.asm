@@ -23,7 +23,7 @@ ItemNames::
 	db "FIRE STONE@"
 	db "THUNDERSTONE@"
 	db "WATER STONE@"
-	db "TERU-SAMA@"
+	db "MIST STONE@"
 	db "HP UP@"
 	db "PROTEIN@"
 	db "IRON@"
