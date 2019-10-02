@@ -3512,7 +3512,12 @@ ParasolLadyGroup:
 GiovanniGroup:
 	; Giovanni (1)
 	db "GIOVANNI@", TRAINERTYPE_NORMAL
-	db 30, PERSIAN
+	db 63, DUGTRIO
+	db 65, PERSIAN
+	db 65, NIDOQUEEN
+	db 67, NIDOKING
+	db 68, KANGASKHAN
+	db 70, RHYHORN
 	db -1 ; end
 
 PoketrainerGroup:
