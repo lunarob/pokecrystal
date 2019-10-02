@@ -3513,5 +3513,5 @@ GiovanniGroup:
 PoketrainerGroup:
 	; Poketrainer (1)
 	db "KRIS@", TRAINERTYPE_NORMAL
-	db 15, MARILL
+	db 5, MARILL
 	db -1 ; end
