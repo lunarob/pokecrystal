@@ -91,7 +91,7 @@ ProfElmScript:
 	opentext
 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
 	iftrue ElmCheckMasterBall
-	checkevent EVENT_BEAT_ELITE_FOUR
+	checkevent EVENT_BEAT_ELITE_FOUR ; If you beat the elite four, give SS ticket
 	iftrue ElmGiveTicketScript
 ElmCheckMasterBall:
 	checkevent EVENT_GOT_MASTER_BALL_FROM_ELM
@@ -155,7 +155,7 @@ LabTryToLeaveScript:
 	applymovement PLAYER, ElmsLab_CantLeaveMovement
 	end
 
-CyndaquilPokeBallScript:
+CyndaquilPokeBallScript: ; Do you want Cyndaquil? text
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
@@ -185,7 +185,7 @@ CyndaquilPokeBallScript:
 	applymovement PLAYER, AfterCyndaquilMovement
 	sjump ElmDirectionsScript
 
-TotodilePokeBallScript:
+TotodilePokeBallScript: ; Do you want Totodile? text
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
@@ -213,35 +213,35 @@ TotodilePokeBallScript:
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
 
-ChikoritaPokeBallScript:
+ChikoritaPokeBallScript: ; Do you want Chikorita? text
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
-	iftrue LookAtElmPokeBallScript
-	turnobject ELMSLAB_ELM, DOWN
+	iftrue LookAtElmPokeBallScript ; If you already got a Pokemon, just write a script that "oh this is Elm's pokemon ball"
+	turnobject ELMSLAB_ELM, DOWN ; Elm looks down (if he wasn't already)
 	refreshscreen
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic CHIKORITA ; Show Chikorita
+	cry CHIKORITA ; Hear Chikorita
 	waitbutton
 	closepokepic
 	opentext
-	writetext TakeChikoritaText
+	writetext TakeChikoritaText ; Do you want Chikorita?
 	yesorno
-	iffalse DidntChooseStarterScript
-	disappear ELMSLAB_POKE_BALL3
-	setevent EVENT_GOT_CHIKORITA_FROM_ELM
-	writetext ChoseStarterText
-	buttonsound
+	iffalse DidntChooseStarterScript ; No? That's ok.
+	disappear ELMSLAB_POKE_BALL3 ; Ball dissapears (#3, with Chikorita)
+	setevent EVENT_GOT_CHIKORITA_FROM_ELM ; You got the pokemon! event
+	writetext ChoseStarterText ; You chose Chikorita!
+	buttonsound ; sound
 	waitsfx
 	getmonname STRING_BUFFER_3, CHIKORITA
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke CHIKORITA, 5, BERRY
+	givepoke CHIKORITA, 5, BERRY ; You actually getting the pokemon
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript
 
-DidntChooseStarterScript:
+DidntChooseStarterScript: ; If you don't pick one and try to leave
 	writetext DidntChooseStarterText
 	waitbutton
 	closetext
@@ -725,10 +725,10 @@ AfterChikoritaMovement:
 
 ElmText_Intro:
 	text "ELM: <PLAY_G>!"
-	line "There you are!"
+	line "You're here!"
 
-	para "I needed to ask"
-	line "you a favor."
+	para "How have you been"
+	line "doing recently?"
 
 	para "I'm conducting new"
 	line "#MON research"

@@ -1,6 +1,7 @@
 	object_const_def ; object_event constants
 	const PLAYERSNEIGHBORSHOUSE_COOLTRAINER_F
 	const PLAYERSNEIGHBORSHOUSE_POKEFAN_F
+	const PLAYERSNEIGHBORSHOUSE_KRIS ; Added for Kris
 
 PlayersNeighborsHouse_MapScripts:
 	db 0 ; scene scripts
@@ -15,6 +16,9 @@ PlayersNeighborScript:
 
 PlayersNeighborsHouseBookshelfScript:
 	jumpstd magazinebookshelf
+
+PlayersNeighborKrisScript: ; Added for Kris
+	jumptextfaceplayer PlayersNeighborKrisText
 
 PlayersNeighborsHouseRadioScript:
 	checkevent EVENT_GOT_A_POKEMON_FROM_ELM
@@ -76,6 +80,20 @@ PlayersNeighborText:
 	para "But then, so do I!"
 	done
 
+PlayersNeighborKrisText: ; New for Kris
+	text "KRIS: Oh, hey,"
+	line "<PLAYER>!"
+	
+	para "It's good to see"
+	line "you."
+	
+	para "That reminds me…"
+	
+	para "I think PROF.ELM"
+	line "wanted to see us"
+	cont "about something."
+	done
+
 PlayerNeighborRadioText1:
 	text "PROF.OAK'S #MON"
 	line "TALK! Please tune"
@@ -110,6 +128,7 @@ PlayersNeighborsHouse_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, PlayersNeighborsHouseBookshelfScript
 	bg_event  7,  1, BGEVENT_READ, PlayersNeighborsHouseRadioScript
 
-	db 2 ; object events
+	db 3 ; object events
 	object_event  2,  3, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PlayersNeighborsDaughterScript, -1
 	object_event  5,  3, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, PlayersNeighborScript, EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
+	object_event  6,  2, SPRITE_KRIS, SPRITEMOVEDATA_WALKING_UP_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, PlayersNeighborKrisScript, -1 ; New for Kris
