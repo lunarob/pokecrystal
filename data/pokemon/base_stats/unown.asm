@@ -1,11 +1,11 @@
 	db UNOWN ; 201
 
-	db  48,  72,  48,  48,  72,  48
+	db  68,  92,  68,  68,  92,  68
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, PSYCHIC ; type
 	db 225 ; catch rate
-	db 61 ; base exp
+	db 100 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_UNKNOWN ; gender ratio
 	db 100 ; unknown 1

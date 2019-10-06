@@ -9,6 +9,7 @@
 	const ROUTE39_PSYCHIC_NORMAN
 	const ROUTE39_FRUIT_TREE
 	const ROUTE39_POKEFAN_F2
+;	const ROUTE39_PARASOL_LADY ; Added parason lady
 
 Route39_MapScripts:
 	db 0 ; scene scripts
@@ -115,6 +116,9 @@ TrainerPokefanfRuth:
 
 TrainerSailorEugene:
 	trainer SAILOR, EUGENE, EVENT_BEAT_SAILOR_EUGENE, SailorEugeneSeenText, SailorEugeneBeatenText, 0, .Script
+
+;TrainerParasolLadyAnna: ; NEW
+;	trainer PARASOL_LADY, ANNA, EVENT_BEAT_PARASOL_LADY_ANNA, ParasolLadyAnnaSeenText, ParasolLadyAnnaBeatenText, 0, .Script
 
 .Script:
 	endifjustbattled
@@ -237,10 +241,24 @@ PokefanfRuthSeenText:
 	cont "at the same time."
 	done
 
+;ParasolLadyAnnaSeenText: ; NEW
+;	text "I love it when it"
+;	line "rains."
+;
+;	para "My #MON and I"
+;	line "love to play in"
+;	cont "the rain together."
+;	done
+
 PokefanfRuthBeatenText:
 	text "I don't mind"
 	line "losing."
 	done
+
+;ParasolLadyAnnaBeatenText: ; NEW
+;	text "I hope that it"
+;	line "rains soon."
+;	done
 
 PokefanfRuthAfterBattleText:
 	text "Do you know about"
@@ -249,6 +267,14 @@ PokefanfRuthAfterBattleText:
 	para "I bet they're just"
 	line "adorable!"
 	done
+
+;ParasolLadyAnnaAfterBattleText: ; NEW
+;	text "I know that some"
+;	line "#MON get stronger"
+;
+;	para "when it's raining"
+;	line "or sunny."
+;	done
 
 PokefanMDerekPikachuIsItText:
 	text "PIKACHU is it!"

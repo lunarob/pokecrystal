@@ -1,11 +1,11 @@
 	db PIDGEOT ; 018
 
-	db  83,  80,  75,  91,  70,  70
+	db  103,  91,  75,  91,  70,  70
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, FLYING ; type
 	db 45 ; catch rate
-	db 172 ; base exp
+	db 194 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

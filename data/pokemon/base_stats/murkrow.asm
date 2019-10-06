@@ -1,11 +1,11 @@
 	db MURKROW ; 198
 
-	db  60,  85,  42,  91,  85,  42
+	db  60,  90,  50,  95,  90,  50
 	;   hp  atk  def  spd  sat  sdf
 
 	db DARK, FLYING ; type
 	db 30 ; catch rate
-	db 107 ; base exp
+	db 137 ; base exp
 	db NO_ITEM, NO_ITEM ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

@@ -1,11 +1,11 @@
 	db BEEDRILL ; 015
 
-	db  65,  80,  40,  75,  45,  80
+	db  65,  100,  40,  95,  45,  90
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, POISON ; type
 	db 45 ; catch rate
-	db 159 ; base exp
+	db 179 ; base exp
 	db NO_ITEM, POISON_BARB ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

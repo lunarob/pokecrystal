@@ -1,11 +1,11 @@
 	db FURRET ; 162
 
-	db  85,  76,  64,  90,  45,  55
+	db  85,  86,  64,  108,  45,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
 	db 90 ; catch rate
-	db 116 ; base exp
+	db 126 ; base exp
 	db BERRY, GOLD_BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1

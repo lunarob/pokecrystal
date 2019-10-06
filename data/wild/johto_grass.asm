@@ -35,18 +35,18 @@ JohtoGrassWildMons:
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 3, ABRA ; edit
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 5, ABRA ; edit
+	db 5, ABRA ; edit
 	; day
 	db 3, RATTATA
 	db 4, RATTATA
 	db 5, RATTATA
-	db 3, RATTATA
+	db 3, ABRA ; edit
 	db 6, RATTATA
-	db 5, RATTATA
-	db 5, RATTATA
+	db 5, ABRA ; edit
+	db 5, ABRA ; edit
 	; nite
 	db 3, GASTLY
 	db 4, GASTLY
@@ -348,8 +348,8 @@ JohtoGrassWildMons:
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
 	db 14, SPINARAK
-	db 10, PICHU ;edit
-	db 10, VENONAT
+	db 10, VENONAT ;edit
+	db 8,  PICHU ; edit
 	db 12, VENONAT
 	db 12, VENONAT
 

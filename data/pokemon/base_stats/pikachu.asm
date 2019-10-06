@@ -1,11 +1,11 @@
 	db PIKACHU ; 025
 
-	db  35,  55,  30,  90,  50,  40
+	db  35,  65,  30,  95,  60,  40
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type
 	db 190 ; catch rate
-	db 82 ; base exp
+	db 92 ; base exp
 	db NO_ITEM, BERRY ; items
 	db GENDER_F50 ; gender ratio
 	db 100 ; unknown 1
