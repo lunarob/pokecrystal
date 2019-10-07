@@ -307,24 +307,24 @@ JohtoGrassWildMons:
 	db 16, GRIMER ;edit
 	db 15, ZUBAT
 	db 12, KOFFING
-	db 16, WEEZING ;edit
-	db 16, WEEZING
+	db 14, MAGMAR ;edit
+	db 14, MAGMAR
 	; day
 	db 14, RATTATA
 	db 14, KOFFING
 	db 16, GRIMER ;edit
 	db 15, ZUBAT
 	db 12, KOFFING
-	db 16, WEEZING ;edit
-	db 16, WEEZING
+	db 16, MAGMAR ;edit added
+	db 16, MAGMAR ; added
 	; nite
 	db 14, RATTATA
 	db 14, KOFFING
 	db 15, GASTLY ;edit
 	db 15, ZUBAT
 	db 16, HAUNTER ;edit
-	db 16, WEEZING ;edit
-	db 16, WEEZING
+	db 14, MAGMAR ;edit added
+	db 14, MAGMAR ; added
 
 	map_id NATIONAL_PARK
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -348,8 +348,8 @@ JohtoGrassWildMons:
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
 	db 14, SPINARAK
-	db 10, VENONAT ;edit
-	db 8,  PICHU ; edit
+	db 10, VENONAT ; edit
+	db 12, PIKACHU ; edit
 	db 12, VENONAT
 	db 12, VENONAT
 
@@ -414,7 +414,7 @@ JohtoGrassWildMons:
 	db 6, SANDSHREW
 	db 5, ZUBAT
 	db 4, CUBONE ;edit
-	db 4, MAGBY ;edit
+	db 4, ABRA ;edited added
 	db 6, ONIX
 	db 6, ONIX
 	; day
@@ -422,15 +422,15 @@ JohtoGrassWildMons:
 	db 6, SANDSHREW
 	db 5, ZUBAT
 	db 4, CUBONE ;edit
-	db 4, MAGBY ;edit
+	db 4, ABRA ;edited added
 	db 6, ONIX
 	db 6, ONIX
 	; nite
 	db 6, GEODUDE
 	db 6, RATTATA
 	db 5, WOOPER
-	db 4, RATTATA
-	db 4, MAGBY ;edit
+	db 4, SANDSHREW ; edited
+	db 4, ABRA ;edited added
 	db 6, ONIX
 	db 6, ONIX
 
@@ -457,7 +457,7 @@ JohtoGrassWildMons:
 	db 6, ZUBAT
 	db 8, WOOPER
 	db 8, ONIX
-	db 6, RATTATA
+	db 6, CUBONE ;edited added
 	db 8, RATTATA
 	db 8, RATTATA
 
@@ -466,17 +466,17 @@ JohtoGrassWildMons:
 	; morn
 	db 22, ZUBAT
 	db 22, GOLBAT
-	db 22, ZUBAT
+	db 22, GEODUDE ; moved
 	db 21, RATICATE
-	db 20, GEODUDE
+	db 20, MAROWAK ; added
 	db 23, ONIX
 	db 23, ONIX
 	; day
 	db 22, ZUBAT
 	db 22, GOLBAT
-	db 22, ZUBAT
+	db 22, GEODUDE ; moved
 	db 21, RATICATE
-	db 20, GEODUDE
+	db 20, MAROWAK ; added
 	db 23, ONIX
 	db 23, ONIX
 	; nite
@@ -484,7 +484,7 @@ JohtoGrassWildMons:
 	db 22, GOLBAT
 	db 22, QUAGSIRE
 	db 21, RATICATE
-	db 20, GEODUDE
+	db 20, MAROWAK ; added
 	db 23, ONIX
 	db 23, ONIX
 
@@ -547,27 +547,27 @@ JohtoGrassWildMons:
 	; morn
 	db 5, CATERPIE
 	db 5, WEEDLE
-	db 7, METAPOD
+	db 7, PARAS ; moved
 	db 7, KAKUNA
 	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 6, FARFETCH_D
+	db 6, FARFETCH_D
 	; day
 	db 5, CATERPIE
 	db 5, WEEDLE
-	db 7, METAPOD
+	db 7, PARAS ; moved
 	db 7, KAKUNA
 	db 7, PIDGEY
-	db 6, PARAS
-	db 6, PARAS
+	db 6, FARFETCH_D
+	db 6, FARFETCH_D
 	; nite
 	db 5, ODDISH
 	db 5, VENONAT
 	db 7, HOOTHOOT
 	db 7, PSYDUCK
-	db 5, PICHU ;edit
-	db 6, PARAS
-	db 6, PARAS
+	db 5, PIKACHU ; added
+	db 6, PINECO ; added
+	db 6, PINECO ; added
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -677,140 +677,140 @@ JohtoGrassWildMons:
 	db 18, RATICATE
 	db 18, RATICATE
 
-	map_id ICE_PATH_1F
+	map_id ICE_PATH_1F ; moved levels up by 7
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 28, SWINUB
+	db 29, ZUBAT
+	db 29, GOLBAT
+	db 30, SWINUB
+	db 31, GOLBAT
+	db 29, GOLBAT
+	db 29, GOLBAT
 	; day
-	db 21, SWINUB
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, SWINUB
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 28, SWINUB
+	db 29, ZUBAT
+	db 29, GOLBAT
+	db 30, SWINUB
+	db 31, GOLBAT
+	db 29, GOLBAT
+	db 29, GOLBAT
 	; nite
-	db 21, DELIBIRD
-	db 22, ZUBAT
-	db 22, GOLBAT
-	db 23, DELIBIRD
-	db 24, GOLBAT
-	db 22, GOLBAT
-	db 22, GOLBAT
+	db 28, DELIBIRD
+	db 29, ZUBAT
+	db 29, GOLBAT
+	db 30, DELIBIRD
+	db 31, GOLBAT
+	db 29, GOLBAT
+	db 29, GOLBAT
 
-	map_id ICE_PATH_B1F
+	map_id ICE_PATH_B1F ; raised levels by 7
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	db 29, SWINUB
+	db 30, ZUBAT
+	db 30, GOLBAT
+	db 31, SWINUB
+	db 32, GOLBAT
+	db 30, GOLBAT
+	db 39, JYNX
 	; day
-	db 22, SWINUB
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, SWINUB
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, JYNX
+	db 29, SWINUB
+	db 30, ZUBAT
+	db 30, GOLBAT
+	db 31, SWINUB
+	db 32, GOLBAT
+	db 30, GOLBAT
+	db 29, JYNX
 	; nite
-	db 22, DELIBIRD
-	db 23, ZUBAT
-	db 23, GOLBAT
-	db 24, DELIBIRD
-	db 25, GOLBAT
-	db 23, GOLBAT
-	db 22, SNEASEL
+	db 29, DELIBIRD
+	db 30, ZUBAT
+	db 30, GOLBAT
+	db 31, DELIBIRD
+	db 32, GOLBAT
+	db 30, GOLBAT
+	db 29, SNEASEL
 
-	map_id ICE_PATH_B2F_MAHOGANY_SIDE
+	map_id ICE_PATH_B2F_MAHOGANY_SIDE ; levels up by 7
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 30, SWINUB
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, SWINUB
+	db 33, GOLBAT
+	db 29, JYNX
+	db 31, JYNX
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 30, SWINUB
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, SWINUB
+	db 33, GOLBAT
+	db 29, JYNX
+	db 31, JYNX
 	; nite
-	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, DELIBIRD
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	db 30, DELIBIRD
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, DELIBIRD
+	db 33, GOLBAT
+	db 29, SNEASEL
+	db 31, SNEASEL
 
-	map_id ICE_PATH_B2F_BLACKTHORN_SIDE
+	map_id ICE_PATH_B2F_BLACKTHORN_SIDE ; raised levels by 7
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 30, SWINUB
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, SWINUB
+	db 33, GOLBAT
+	db 29, JYNX
+	db 31, JYNX
 	; day
-	db 23, SWINUB
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, SWINUB
-	db 26, GOLBAT
-	db 22, JYNX
-	db 24, JYNX
+	db 30, SWINUB
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, SWINUB
+	db 33, GOLBAT
+	db 29, JYNX
+	db 31, JYNX
 	; nite
-	db 23, DELIBIRD
-	db 24, ZUBAT
-	db 24, GOLBAT
-	db 25, DELIBIRD
-	db 26, GOLBAT
-	db 22, SNEASEL
-	db 24, SNEASEL
+	db 30, DELIBIRD
+	db 31, ZUBAT
+	db 31, GOLBAT
+	db 32, DELIBIRD
+	db 33, GOLBAT
+	db 29, SNEASEL
+	db 31, SNEASEL
 
-	map_id ICE_PATH_B3F
+	map_id ICE_PATH_B3F ; raised levels by 7
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	db 31, SWINUB
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, SWINUB
+	db 29, JYNX
+	db 31, JYNX
+	db 33, JYNX
 	; day
-	db 24, SWINUB
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, SWINUB
-	db 22, JYNX
-	db 24, JYNX
-	db 26, JYNX
+	db 31, SWINUB
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, SWINUB
+	db 29, JYNX
+	db 31, JYNX
+	db 33, JYNX
 	; nite
-	db 24, DELIBIRD
-	db 25, ZUBAT
-	db 25, GOLBAT
-	db 26, DELIBIRD
-	db 22, SNEASEL
-	db 24, SNEASEL
-	db 26, SNEASEL
+	db 31, DELIBIRD
+	db 32, ZUBAT
+	db 32, GOLBAT
+	db 33, DELIBIRD
+	db 29, SNEASEL
+	db 31, SNEASEL
+	db 33, SNEASEL
 
 	map_id WHIRL_ISLAND_NW
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1163,32 +1163,32 @@ JohtoGrassWildMons:
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 
-	map_id DARK_CAVE_BLACKTHORN_ENTRANCE
+	map_id DARK_CAVE_BLACKTHORN_ENTRANCE ; raised levels by 7
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 23, GEODUDE
-	db 23, ZUBAT
-	db 25, GRAVELER
-	db 25, URSARING
-	db 20, TEDDIURSA
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 30, GEODUDE
+	db 30, ZUBAT
+	db 32, GRAVELER
+	db 32, URSARING
+	db 27, TEDDIURSA
+	db 30, GOLBAT
+	db 30, GOLBAT
 	; day
-	db 23, GEODUDE
-	db 23, ZUBAT
-	db 25, GRAVELER
-	db 25, URSARING
-	db 30, URSARING
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 30, GEODUDE
+	db 30, ZUBAT
+	db 32, GRAVELER
+	db 32, URSARING
+	db 37, URSARING
+	db 30, GOLBAT
+	db 30, GOLBAT
 	; nite
-	db 23, GEODUDE
-	db 23, ZUBAT
-	db 25, GRAVELER
-	db 20, WOBBUFFET
-	db 25, WOBBUFFET
-	db 23, GOLBAT
-	db 23, GOLBAT
+	db 30, GEODUDE
+	db 30, ZUBAT
+	db 32, GRAVELER
+	db 27, WOBBUFFET
+	db 32, WOBBUFFET
+	db 30, GOLBAT
+	db 30, GOLBAT
 
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1332,7 +1332,7 @@ JohtoGrassWildMons:
 	db 11, RATTATA
 	db 12, PIDGEY
 	db 10, ABRA
-	db 12, IGGLYBUFF ;edit
+	db 12, JIGGLYPUFF ;edit
 	db 10, DITTO
 	db 10, DITTO
 	; day
@@ -1340,7 +1340,7 @@ JohtoGrassWildMons:
 	db 11, RATTATA
 	db 12, PIDGEY
 	db 10, ABRA
-	db 12, IGGLYBUFF ;edit
+	db 12, JIGGLYPUFF ;edit
 	db 10, DITTO
 	db 10, DITTO
 	; nite
@@ -1348,7 +1348,7 @@ JohtoGrassWildMons:
 	db 11, RATTATA
 	db 12, HOOTHOOT
 	db 10, ABRA
-	db 12, CLEFFA ;edit
+	db 12, CLEFAIRY ;edit
 	db 10, DITTO
 	db 10, DITTO
 
@@ -1386,7 +1386,7 @@ JohtoGrassWildMons:
 	db 4, BELLSPROUT ;edit prob
 	db 5, GROWLITHE ;edit prob
 	db 5, TANGELA ;edit
-	db 5, TANGELA ;edit
+	db 5, VULPIX ;edit
 	db 6, TANGELA ;edit
 	db 6, TANGELA ;edit
 	; day
@@ -1428,8 +1428,8 @@ JohtoGrassWildMons:
 	db 13, SPINARAK
 	db 14, STANTLER
 	db 15, HOOTHOOT
-	db 16, SKARMORY ;edit
-	db 15, NOCTOWL
+	db 16, NOCTOWL ;edit prob
+	db 15, SKARMORY ; added
 	db 15, ARIADOS
 	db 15, ARIADOS
 
@@ -1456,9 +1456,9 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 12, ELEKID ;edit
-	db 12, ELEKID ;edit
-	db 12, ELEKID ;edit
+	db 12, ELECTABUZZ ;edit
+	db 12, ELECTABUZZ ;edit
+	db 12, ELECTABUZZ ;edit
 
 	map_id ROUTE_39
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
@@ -1483,9 +1483,9 @@ JohtoGrassWildMons:
 	db 16, RATICATE
 	db 16, MAGNEMITE
 	db 16, NOCTOWL
-	db 12, ELEKID ;edit
-	db 12, ELEKID ;edit
-	db 12, ELEKID ;edit
+	db 12, ELECTABUZZ ;edit
+	db 12, ELECTABUZZ ;edit
+	db 12, ELECTABUZZ ;edit
 
 	map_id ROUTE_42
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
