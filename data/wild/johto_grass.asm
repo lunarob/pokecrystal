@@ -1265,8 +1265,8 @@ JohtoGrassWildMons:
 	; nite
 	db 4, SPINARAK
 	db 4, POLIWAG
-	db 5, HOOTHOOT ;edit
-	db 5, NATU ;edit
+	db 5, BELLSPROUT
+	db 5, HOOTHOOT
 	db 4, ZUBAT
 	db 5, GASTLY
 	db 5, GASTLY
@@ -1387,22 +1387,22 @@ JohtoGrassWildMons:
 	db 5, GROWLITHE ;edit prob
 	db 5, TANGELA ;edit
 	db 5, VULPIX ;edit
-	db 6, TANGELA ;edit
-	db 6, TANGELA ;edit
+	db 4, NATU ;edit
+	db 4, NATU ;edit
 	; day
 	db 4, PIDGEY
 	db 4, BELLSPROUT ;edit prob
 	db 5, GROWLITHE ;edit prob
 	db 5, VULPIX ;edit
-	db 5, VULPIX ;edit
 	db 6, VULPIX ;edit
-	db 6, VULPIX ;edit
+	db 4, NATU ;edit
+	db 4, NATU ;edit
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
 	db 5, BELLSPROUT
 	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 4, NATU ; edit
 	db 5, GASTLY
 	db 5, GASTLY
 

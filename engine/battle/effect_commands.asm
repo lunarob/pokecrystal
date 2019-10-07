@@ -1298,6 +1298,7 @@ BattleCommand_Stab:
 .SkipStab:
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
+	and TYPE_MASK
 	ld b, a
 	ld hl, TypeMatchups
 
@@ -1312,7 +1313,6 @@ BattleCommand_Stab:
 	jr nz, .SkipForesightCheck
 	ld a, BATTLE_VARS_SUBSTATUS1_OPP
 	call GetBattleVar
-	and TYPE_MASK
 	bit SUBSTATUS_IDENTIFIED, a
 	jr nz, .end
 
@@ -2950,7 +2950,6 @@ BattleCommand_DamageCalc:
 
 	ld a, BATTLE_VARS_MOVE_EFFECT
 	call GetBattleVar
-	and TYPE_MASK
 
 ; Selfdestruct and Explosion halve defense.
 	cp EFFECT_SELFDESTRUCT
@@ -3051,6 +3050,7 @@ BattleCommand_DamageCalc:
 	ld b, a
 	ld a, BATTLE_VARS_MOVE_TYPE
 	call GetBattleVar
+	and TYPE_MASK
 	cp b
 	jr nz, .DoneItem
 

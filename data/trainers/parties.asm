@@ -10,11 +10,11 @@ Trainers:
 ;    * for TRAINERTYPE_ITEM_MOVES: db level, species, item, 4 moves
 ; - db -1 ; end
 
-FalknerGroup:
+FalknerGroup: ; updated after PlyT1
 	; FALKNER (1)
 	db "FALKNER@", TRAINERTYPE_MOVES
-	db  9, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
-	db  13, PIDGEOTTO, TACKLE, MUD_SLAP, GUST, NO_MOVE
+	db  12, PIDGEY,     TACKLE, MUD_SLAP, NO_MOVE, NO_MOVE
+	db  16, PIDGEOTTO,  TACKLE, MUD_SLAP, GUST, NO_MOVE
 	db -1 ; end
 
 WhitneyGroup:
@@ -25,12 +25,12 @@ WhitneyGroup:
 	db 20, MILTANK,    ROLLOUT, ATTRACT, STOMP, MILK_DRINK
 	db -1 ; end
 
-BugsyGroup:
+BugsyGroup: ; updated after PlyT1
 	; BUGSY (1)
 	db "BUGSY@", TRAINERTYPE_MOVES
-	db 15, BUTTERFREE, TACKLE, CONFUSION, SLEEP_POWDER, POISONPOWDER ; evolve
-	db 15, BEEDRILL,   POISON_STING, STRING_SHOT, FURY_ATTACK, FOCUS_ENERGY ; evolve
-	db 17, SCYTHER,    QUICK_ATTACK, LEER, FURY_CUTTER, FOCUS_ENERGY
+	db 18, BUTTERFREE, TACKLE, CONFUSION, SLEEP_POWDER, POISONPOWDER ; evolve
+	db 18, BEEDRILL,   POISON_STING, STRING_SHOT, FURY_ATTACK, FOCUS_ENERGY ; evolve
+	db 20, SCYTHER,    QUICK_ATTACK, LEER, FURY_CUTTER, FOCUS_ENERGY
 	db -1 ; end
 
 MortyGroup:
@@ -92,25 +92,25 @@ Rival1Group:
 	db  5, TOTODILE
 	db -1 ; end
 
-	; RIVAL1 (4)
+	; RIVAL1 (4) ; updated after PlyT1
 	db "?@", TRAINERTYPE_NORMAL
-	db 14, GASTLY
-	db 16, ZUBAT
-	db 18, BAYLEEF
+	db 17, GASTLY
+	db 19, ZUBAT
+	db 21, BAYLEEF
 	db -1 ; end
 
-	; RIVAL1 (5)
+	; RIVAL1 (5) ; updated after PlyT1
 	db "?@", TRAINERTYPE_NORMAL
-	db 14, GASTLY
-	db 16, ZUBAT
-	db 18, QUILAVA
+	db 17, GASTLY
+	db 19, ZUBAT
+	db 21, QUILAVA
 	db -1 ; end
 
-	; RIVAL1 (6)
+	; RIVAL1 (6) ; updated after PlyT1
 	db "?@", TRAINERTYPE_NORMAL
-	db 14, GASTLY
-	db 16, ZUBAT
-	db 18, CROCONAW
+	db 17, GASTLY
+	db 19, ZUBAT
+	db 21, CROCONAW
 	db -1 ; end
 
 	; RIVAL1 (7)
