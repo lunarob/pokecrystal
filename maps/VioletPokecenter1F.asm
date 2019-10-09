@@ -170,7 +170,7 @@ UnknownText_0x6972d:
 
 UnknownText_0x69791:
 	text "I just battled a"
-	line "friend in CIANWOOD"
+	line "friend in TANBA"
 	cont "over a link."
 
 	para "If you connect a"

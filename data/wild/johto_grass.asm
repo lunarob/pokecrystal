@@ -542,32 +542,32 @@ JohtoGrassWildMons:
 	db 23, SLOWPOKE
 	db 23, SLOWPOKE
 
-	map_id ILEX_FOREST
+	map_id ILEX_FOREST ; edit after PlyT1 (up 3)
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, PARAS ; moved
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 6, FARFETCH_D
-	db 6, FARFETCH_D
+	db 8, CATERPIE
+	db 8, WEEDLE
+	db 10, PARAS ; moved
+	db 10, KAKUNA
+	db 10, METAPOD ; replaced pidgey
+	db 9, FARFETCH_D
+	db 9, FARFETCH_D
 	; day
-	db 5, CATERPIE
-	db 5, WEEDLE
-	db 7, PARAS ; moved
-	db 7, KAKUNA
-	db 7, PIDGEY
-	db 6, FARFETCH_D
-	db 6, FARFETCH_D
+	db 8, CATERPIE
+	db 8, WEEDLE
+	db 10, PARAS ; moved
+	db 10, KAKUNA
+	db 10, METAPOD ; replaced pidgey
+	db 9, FARFETCH_D
+	db 9, FARFETCH_D
 	; nite
-	db 5, ODDISH
-	db 5, VENONAT
-	db 7, HOOTHOOT
-	db 7, PSYDUCK
-	db 5, PIKACHU ; added
-	db 6, PINECO ; added
-	db 6, PINECO ; added
+	db 8, ODDISH
+	db 8, VENONAT
+	db 10, HOOTHOOT
+	db 10, PSYDUCK
+	db 8, PIKACHU ; added
+	db 9, PINECO ; added
+	db 9, PINECO ; added
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1385,16 +1385,16 @@ JohtoGrassWildMons:
 	db 4, LEDYBA
 	db 4, BELLSPROUT ;edit prob
 	db 5, GROWLITHE ;edit prob
-	db 5, TANGELA ;edit
-	db 5, VULPIX ;edit
+	db 5, TANGELA ;edit after PlyT1
+	db 5, BELLSPROUT ;edit after PlyT1
 	db 4, NATU ;edit
 	db 4, NATU ;edit
 	; day
 	db 4, PIDGEY
 	db 4, BELLSPROUT ;edit prob
 	db 5, GROWLITHE ;edit prob
-	db 5, VULPIX ;edit
-	db 6, VULPIX ;edit
+	db 5, BELLSPROUT ;edit after PlyT1
+	db 5, TANGELA ;edit after PlyT1
 	db 4, NATU ;edit
 	db 4, NATU ;edit
 	; nite

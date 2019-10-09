@@ -112,7 +112,7 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
+	line "KIKYO #MON GYM"
 	cont "leader!"
 
 	para "People say you can"

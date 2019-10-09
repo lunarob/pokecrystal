@@ -362,23 +362,23 @@ YoungsterGroup:
 	db  8, ZUBAT
 	db -1 ; end
 
-	; YOUNGSTER (4)
+	; YOUNGSTER (4) ; Changed after PlyT1
 	db "GORDON@", TRAINERTYPE_NORMAL
-	db 10, WOOPER
+	db 14, WOOPER
 	db -1 ; end
 
-	; YOUNGSTER (5)
+	; YOUNGSTER (5); edit after PlyT1
 	db "SAMUEL@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db 10, SANDSHREW
-	db  8, SPEAROW
-	db  8, SPEAROW
+	db 14, RATTATA
+	db 16, SANDSHREW
+	db 15, SPEAROW
+	db 15, SPEAROW
 	db -1 ; end
 
-	; YOUNGSTER (6)
+	; YOUNGSTER (6); edit after PlyT1
 	db "IAN@", TRAINERTYPE_NORMAL
-	db 10, MANKEY
-	db 12, DIGLETT
+	db 15, MANKEY
+	db 18, DIGLETT
 	db -1 ; end
 
 	; YOUNGSTER (7) REMATCH I
@@ -660,11 +660,11 @@ BirdKeeperGroup:
 	db 40, FARFETCH_D
 	db -1 ; end
 
-	; BIRD_KEEPER (13)
+	; BIRD_KEEPER (13) ; Changed after PlyT1
 	db "PETER@", TRAINERTYPE_NORMAL
-	db  6, PIDGEY
-	db  6, PIDGEY
-	db  8, SPEAROW
+	db  10, PIDGEY
+	db  10, PIDGEY
+	db  12, SPEAROW
 	db -1 ; end
 
 	; BIRD_KEEPER (14) REMATCH I
@@ -1181,7 +1181,7 @@ BeautyGroup:
 PokemaniacGroup:
 	; POKEMANIAC (1)
 	db "LARRY@", TRAINERTYPE_NORMAL
-	db 11, SLOWPOKE
+	db 15, SLOWPOKE
 	db -1 ; end
 
 	; POKEMANIAC (2)
@@ -1260,16 +1260,16 @@ PokemaniacGroup:
 	db -1 ; end
 
 GruntMGroup:
-	; GRUNTM (1)
+	; GRUNTM (1); edit after PlyT1
 	db "MEMBER@", TRAINERTYPE_NORMAL
-	db 14, KOFFING
+	db 17, KOFFING
 	db -1 ; end
 
-	; GRUNTM (2)
+	; GRUNTM (2); edit after PlyT1
 	db "MEMBER@", TRAINERTYPE_NORMAL
-	db  7, RATTATA
-	db  9, ZUBAT
-	db  9, ZUBAT
+	db  13, RATTATA
+	db  11, ZUBAT
+	db  11, ZUBAT
 	db -1 ; end
 
 	; GRUNTM (3)
@@ -1438,10 +1438,10 @@ GruntMGroup:
 	db 19, RATICATE
 	db -1 ; end
 
-	; GRUNTM (29)
+	; GRUNTM (29); edit after PlyT1
 	db "MEMBER@", TRAINERTYPE_NORMAL
-	db  9, RATTATA
-	db  9, RATTATA
+	db  14, RATTATA
+	db  14, RATTATA
 	db -1 ; end
 
 	; GRUNTM (30)
@@ -1552,22 +1552,22 @@ BugCatcherGroup:
 	db  2, CATERPIE
 	db -1 ; end
 
-	; BUG_CATCHER (5)
+	; BUG_CATCHER (5); edit after PlyT1
 	db "BENNY@", TRAINERTYPE_NORMAL
-	db  7, WEEDLE
-	db  9, KAKUNA
-	db 12, BEEDRILL
+	db 10, WEEDLE
+	db 12, KAKUNA
+	db 15, BEEDRILL
 	db -1 ; end
 
-	; BUG_CATCHER (6)
+	; BUG_CATCHER (6); edit after PlyT1
 	db "AL@", TRAINERTYPE_NORMAL
-	db 12, CATERPIE
-	db 12, WEEDLE
+	db 15, CATERPIE
+	db 15, WEEDLE
 	db -1 ; end
 
-	; BUG_CATCHER (7)
+	; BUG_CATCHER (7); edit after PlyT1
 	db "JOSH@", TRAINERTYPE_NORMAL
-	db 13, PARAS
+	db 16, PARAS
 	db -1 ; end
 
 	; BUG_CATCHER (8)
@@ -1639,10 +1639,10 @@ BugCatcherGroup:
 	db 56, VENOMOTH,   GUST, SUPERSONIC, PSYCHIC_M, TOXIC
 	db -1 ; end
 
-	; BUG_CATCHER (19)
+	; BUG_CATCHER (19); edit after PlyT1
 	db "WAYNE@", TRAINERTYPE_NORMAL
-	db  8, LEDYBA
-	db 10, PARAS
+	db 15, LEDYBA
+	db 17, PARAS
 	db -1 ; end
 
 FisherGroup:
@@ -1654,9 +1654,9 @@ FisherGroup:
 	db  5, MAGIKARP
 	db -1 ; end
 
-	; FISHER (2)
+	; FISHER (2) ; Changed after PlyT1
 	db "RALPH@", TRAINERTYPE_NORMAL
-	db 10, GOLDEEN
+	db 15, GOLDEEN
 	db -1 ; end
 
 	; FISHER (3)
@@ -1671,10 +1671,10 @@ FisherGroup:
 	db 31, SEAKING
 	db -1 ; end
 
-	; FISHER (5)
+	; FISHER (5) ; Changed after PlyT1
 	db "HENRY@", TRAINERTYPE_NORMAL
-	db  8, POLIWAG
-	db  8, POLIWAG
+	db  11, POLIWAG
+	db  11, POLIWAG
 	db -1 ; end
 
 	; FISHER (6)
@@ -2307,11 +2307,11 @@ HikerGroup:
 	db 18, MACHAMP
 	db -1 ; end
 
-	; HIKER (2)
-	db "RUSSELL@", TRAINERTYPE_NORMAL
-	db  4, GEODUDE
-	db  6, GEODUDE
-	db  8, GEODUDE
+	; HIKER (2) ; Changed after PlyT1
+	db "RUSS@", TRAINERTYPE_NORMAL
+	db  10, GEODUDE
+	db  10, GEODUDE
+	db  13, GEODUDE
 	db -1 ; end
 
 	; HIKER (3)
@@ -2327,10 +2327,10 @@ HikerGroup:
 	db 25, MACHOP
 	db -1 ; end
 
-	; HIKER (5)
+	; HIKER (5) ; Changed after PlyT1
 	db "TONY@", TRAINERTYPE_NORMAL
-	db 11, GEODUDE
-	db 11, MACHOP
+	db 13, GEODUDE
+	db 13, MACHOP
 	db -1 ; end
 
 	; HIKER (6)
@@ -2414,9 +2414,9 @@ HikerGroup:
 	db 45, MACHAMP
 	db -1 ; end
 
-	; HIKER (18)
+	; HIKER (18) ; Changed after PlyT1
 	db "DANIEL@", TRAINERTYPE_NORMAL
-	db 11, ONIX
+	db 15, ONIX
 	db -1 ; end
 
 	; HIKER (19) REMATCH II
@@ -2562,10 +2562,10 @@ FirebreatherGroup:
 	db 45, MAGCARGO ; evolve
 	db -1 ; end
 
-	; FIREBREATHER (5)
+	; FIREBREATHER (5) ; Changed after PlyT1
 	db "BILL@", TRAINERTYPE_NORMAL
-	db  6, KOFFING
-	db  6, KOFFING
+	db  13, KOFFING
+	db  13, KOFFING
 	db -1 ; end
 
 	; FIREBREATHER (6)
@@ -2574,9 +2574,9 @@ FirebreatherGroup:
 	db 16, MAGMAR
 	db -1 ; end
 
-	; FIREBREATHER (7)
+	; FIREBREATHER (7) ; Changed after PlyT1
 	db "RAY@", TRAINERTYPE_NORMAL
-	db  9, VULPIX
+	db  14, VULPIX
 	db -1 ; end
 
 	; FIREBREATHER (8)
@@ -2801,11 +2801,11 @@ PicnickerGroup:
 	db  9, NIDORAN_F
 	db -1 ; end
 
-	; PICNICKER (2)
+	; PICNICKER (2); edit after PlyT1
 	db "GINA@", TRAINERTYPE_NORMAL
-	db  9, HOPPIP
-	db  9, HOPPIP
-	db 12, BULBASAUR
+	db 14, HOPPIP
+	db 14, HOPPIP
+	db 16, BULBASAUR
 	db -1 ; end
 
 	; PICNICKER (3)
@@ -2956,9 +2956,9 @@ CamperGroup:
 	db  9, NIDORAN_M
 	db -1 ; end
 
-	; CAMPER (2)
+	; CAMPER (2); edit after PlyT1
 	db "TODD@", TRAINERTYPE_NORMAL
-	db 14, PSYDUCK
+	db 19, PSYDUCK
 	db -1 ; end
 
 	; CAMPER (3)
@@ -3116,22 +3116,22 @@ SageGroup:
 	db  3, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (2)
+	; SAGE (2) ; Changed after PlyT1
 	db "NICO@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (3)
+	; SAGE (3) ; Changed after PlyT1
 	db "JIN@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  8, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (4)
+	; SAGE (4) ; Changed after PlyT1
 	db "TROY@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, HOOTHOOT
+	db  9, BELLSPROUT
+	db  9, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (5)
@@ -3148,23 +3148,23 @@ SageGroup:
 	db 16, GASTLY
 	db -1 ; end
 
-	; SAGE (7)
+	; SAGE (7) ; Changed after PlyT1
 	db "EDMOND@", TRAINERTYPE_NORMAL
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
-	db  3, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
+	db  5, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (8)
+	; SAGE (8) ; Changed after PlyT1
 	db "NEAL@", TRAINERTYPE_NORMAL
-	db  6, BELLSPROUT
+	db  8, BELLSPROUT
 	db -1 ; end
 
-	; SAGE (9)
+	; SAGE (9) ; Changed after PlyT1
 	db "LI@", TRAINERTYPE_NORMAL
-	db  7, BELLSPROUT
-	db  7, BELLSPROUT
-	db 10, HOOTHOOT
+	db  9, BELLSPROUT
+	db  9, BELLSPROUT
+	db 12, HOOTHOOT
 	db -1 ; end
 
 	; SAGE (10)
@@ -3286,10 +3286,10 @@ PokefanMGroup:
 	db 42, PSYDUCK,    BERRY
 	db -1 ; end
 
-	; POKEFANM (7)
-	db "BRANDON@", TRAINERTYPE_ITEM
-	db 13, SNUBBULL,   BERRY
-	db 13, MAREEP,     BERRY
+	; POKEFANM (7); edit after PlyT1
+	db "BRAD@", TRAINERTYPE_ITEM
+	db 18, SNUBBULL,   BERRY
+	db 18, MAREEP,     BERRY
 	db -1 ; end
 
 	; POKEFANM (8)
@@ -3371,10 +3371,10 @@ KimonoGirlGroup:
 	db -1 ; end
 
 TwinsGroup:
-	; TWINS (1)
+	; TWINS (1); edit after PlyT1
 	db "AMY & MAY@", TRAINERTYPE_NORMAL
-	db 10, SPINARAK
-	db 10, LEDYBA
+	db 13, SPINARAK
+	db 13, LEDYBA
 	db -1 ; end
 
 	; TWINS (2)
@@ -3501,10 +3501,10 @@ OfficerGroup:
 	db -1 ; end
 
 GruntFGroup:
-	; GRUNTF (1)
+	; GRUNTF (1) ; edit after PlyT1
 	db "MEMBER@", TRAINERTYPE_NORMAL
-	db  9, ZUBAT
-	db 11, EKANS
+	db 14, ZUBAT
+	db 16, EKANS
 	db -1 ; end
 
 	; GRUNTF (2)

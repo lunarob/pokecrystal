@@ -253,23 +253,26 @@ AzaleaTownRivalBeforeText:
 	cont "returned?"
 
 	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	line "them in Yadon"
+	cont "Well? Yeah right."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "They're much"
+	line "bigger than you"
+	cont "think they are."
+	
+	para "Anyway…"
+	
+	para "Let's see how"
+	line "your weak #MON"
+	cont "are!"
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
+	text "… Useless #MON!"
 
-	para "Listen, you. You"
-	line "only won because"
-
-	para "my #MON were"
-	line "weak."
+	para "You only won"
+	line "because my #MON"
+	cont "are weak."
 	done
 
 AzaleaTownRivalAfterText:
@@ -291,20 +294,23 @@ AzaleaTownRivalAfterText:
 
 	para "But get them"
 	line "alone, and they're"
-	cont "weak."
+	
+	para "just a bunch of"
+	line "kids."
 
 	para "I hate them all."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Just stay out of my"
+	line "way. You're only"
 
-	para "like you is only a"
-	line "distraction."
+	para "a distraction to"
+	line "my goal."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "…Haha! And you"
+	line "thought you beat"
+	cont "TEAM ROCKET."
 	done
 
 AzaleaTownRocket1Text:
@@ -313,7 +319,7 @@ AzaleaTownRocket1Text:
 	cont "standing guard."
 
 	para "Aren't I a good"
-	line "Samaritan?"
+	line "person?"
 	done
 
 AzaleaTownRocket2Text:
