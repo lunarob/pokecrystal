@@ -300,11 +300,11 @@ AzaleaTownRivalAfterText:
 
 	para "I hate them all."
 
-	para "Just stay out of my"
-	line "way. You're only"
+	para "Just stay out of"
+	line "my way. You're"
 
-	para "a distraction to"
-	line "my goal."
+	para "only a distraction"
+	line "to my goal."
 	done
 
 AzaleaTownRivalLossText:

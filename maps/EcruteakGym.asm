@@ -181,7 +181,7 @@ MortyIntroText:
 	text "Good of you to"
 	line "have come."
 
-	para "Here in ECRUTEAK,"
+	para "Here in ENJU,"
 	line "#MON have been"
 	cont "revered."
 
@@ -362,7 +362,7 @@ EcruteakGymGuyText:
 	line "may tell you some"
 
 	para "deep secrets about"
-	line "ECRUTEAK."
+	line "ENJU."
 	done
 
 EcruteakGymGuyWinText:

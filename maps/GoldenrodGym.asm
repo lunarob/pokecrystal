@@ -348,12 +348,12 @@ BeautySamanthaSeenText:
 	done
 
 BeautySamanthaBeatenText:
-	text "No! Oh, MEOWTH,"
+	text "No! Oh, NYARTH,"
 	line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "I taught MEOWTH"
+	text "I taught NYARTH"
 	line "moves for taking"
 	cont "on any type…"
 	done

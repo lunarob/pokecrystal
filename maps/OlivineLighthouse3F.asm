@@ -82,7 +82,7 @@ SailorTerrellBeatenText:
 
 SailorTerrellAfterBattleText:
 	text "Every time I come"
-	line "back to OLIVINE, I"
+	line "back to ASAGI, I"
 	cont "visit the GYM."
 
 	para "The GYM LEADER's"
@@ -107,7 +107,7 @@ GentlemanPrestonBeatenText:
 GentlemanPrestonAfterBattleText:
 	text "JASMINE used to"
 	line "use rock #MON"
-	cont "like ONIX."
+	cont "like IWARK."
 	done
 
 OlivineLighthouse3F_MapEvents:

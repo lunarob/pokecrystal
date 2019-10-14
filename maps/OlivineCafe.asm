@@ -55,7 +55,7 @@ OlivineCafeStrengthSailorText_GotStrength:
 	done
 
 OlivineCafeFishingGuruText:
-	text "OLIVINE CAFE's"
+	text "ASAGI CAFE's"
 	line "menu is chock full"
 
 	para "of hearty fare for"
@@ -67,7 +67,7 @@ OlivineCafeSailorText:
 	line "into this town, I"
 
 	para "always visit the"
-	line "OLIVINE CAFE."
+	line "ASAGI CAFE."
 
 	para "Everything on the"
 	line "menu makes me feel"

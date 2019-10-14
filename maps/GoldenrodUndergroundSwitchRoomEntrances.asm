@@ -667,35 +667,35 @@ UndergroundSilverRetreatMovement2:
 UndergroundSilverBeforeText:
 	text "Hold it!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "I've been follow-"
+	line "ing you."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "I've decided to"
+	line "take you down and"
 
-	para "take care of TEAM"
-	line "ROCKET."
+	para "handle of TEAM"
+	line "ROCKET myself."
 
 	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	line "What's that smile"
+	cont "on your face?"
 
-	para "That was just a"
+	para "Before was just a"
 	line "fluke."
 
-	para "But I repay my"
-	line "debts!"
+	para "I've come to repay"
+	line "my debts!"
 	done
 
 UndergroundSilverWinText:
 	text "…Why…"
 	line "Why do I lose?"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "I've assembled"
+	line "tough #MON."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "I'm giving it my"
+	line "all."
 
 	para "So why do I lose?"
 	done
@@ -714,26 +714,28 @@ UndergroundSilverAfterText:
 
 	para "Trust…"
 
-	para "Are they really"
-	line "what I lack?"
+	para "Do I really lack"
+	line "those things?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Would I need those"
+	line "to beat TEAM"
+	cont "ROCKET?"
 
-	para "I… I just don't"
-	line "understand."
+	para "To beat you…?"
 
-	para "But it's not going"
-	line "to end here."
+	para "…I don't fully"
+	line "understand…"
 
-	para "Not now. Not"
-	line "because of this."
+	para "But I'm definitely"
+	line "not going to give"
+	cont "up."
 
-	para "I won't give up my"
-	line "dream of becoming"
+	para "I just need to find"
+	line "some answers."
 
-	para "the world's best"
-	line "#MON trainer!"
+	para "I'll still become"
+	line "the world's strong-"
+	cont "est #MON trainer!"
 	done
 
 UndergroundSilverLossText:

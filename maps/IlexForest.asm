@@ -741,7 +741,7 @@ IlexForestApprenticeIntroText:
 	line "is going to be"
 	cont "steaming…"
 
-	para "The FARFETCH'D"
+	para "The KAMONEGI"
 	line "that CUTS trees"
 
 	para "for charcoal took"
@@ -749,7 +749,7 @@ IlexForestApprenticeIntroText:
 
 	para "I can't go looking"
 	line "for it here in the"
-	cont "ILEX FOREST."
+	cont "UBAME FOREST."
 
 	para "It's too big, dark"
 	line "and scary for me…"
@@ -771,11 +771,11 @@ Text_ItsTheMissingPokemon:
 	done
 
 Text_Kwaaaa:
-	text "FARFETCH'D: Kwaa!"
+	text "KAMONEGI: Kwaa!"
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "Ah! My KAMONEGI!"
 
 	para "You found it for"
 	line "us, kid?"
@@ -806,7 +806,7 @@ Text_CharcoalMasterOutro:
 	line "have to have the"
 
 	para "GYM BADGE from"
-	line "AZALEA to use it."
+	line "HIWADA to use it."
 	done
 
 Text_CharcoalMasterTalkAfter:
@@ -844,7 +844,7 @@ Text_IlexForestLass:
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
+	text "UBAME FOREST is"
 	line "so overgrown with"
 
 	para "trees that you"
@@ -856,7 +856,7 @@ IlexForestSignpostText:
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
+	text "UBAME FOREST"
 	line "SHRINE…"
 
 	para "It's in honor of"
@@ -865,7 +865,7 @@ Text_IlexForestShrine:
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
+	text "UBAME FOREST"
 	line "SHRINE…"
 
 	para "It's in honor of"

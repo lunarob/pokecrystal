@@ -74,7 +74,7 @@ WateredWeirdTreeScript:: ; export (for when you use Squirtbottle from pack)
 	writetext SudowoodoAttackedText
 	waitbutton
 	closetext
-	loadwildmon SUDOWOODO, 20
+	loadwildmon SUDOWOODO, 25 ; up by 5
 	startbattle
 	setevent EVENT_FOUGHT_SUDOWOODO
 	ifequal DRAW, DidntCatchSudowoodo
@@ -512,7 +512,7 @@ RockSmashGuyText3:
 UnknownText_0x1945b8:
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to KOGANE CITY."
 
 	para "I wanted to go see"
 	line "the huge #MON"
@@ -524,7 +524,7 @@ UnknownText_0x1945b8:
 Route36LassText:
 	text "An odd tree is"
 	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	cont "to KOGANE CITY."
 
 	para "It's preventing"
 	line "me from shopping."

@@ -209,7 +209,7 @@ GruntM29AfterBattleText:
 	text "Sure, we've been"
 	line "hacking the tails"
 
-	para "off SLOWPOKE and"
+	para "off YADON and"
 	line "selling them."
 
 	para "Everything we do"
@@ -251,8 +251,8 @@ TrainerGruntM1WhenTalkText:
 	done
 
 GruntM2SeenText:
-	text "Quit taking SLOW-"
-	line "POKETAILS?"
+	text "Quit taking"
+	line "YADONTAILS?"
 
 	para "If we obeyed you,"
 	line "TEAM ROCKET's rep"
@@ -266,8 +266,8 @@ GruntM2BeatenText:
 
 GruntM2AfterBattleText:
 	text "We need the money,"
-	line "but selling SLOW-"
-	cont "POKETAILS?"
+	line "but selling"
+	cont "YADONTAILS?"
 
 	para "It's tough being a"
 	line "ROCKET GRUNT!"
@@ -285,7 +285,7 @@ GruntF1BeatenText:
 	done
 
 GruntF1AfterBattleText:
-	text "SLOWPOKETAILS"
+	text "YADONTAILS"
 	line "grow back fast!"
 
 	para "What's wrong with"
@@ -293,7 +293,7 @@ GruntF1AfterBattleText:
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "A SLOWPOKE with"
+	text "A YADON with"
 	line "its TAIL cut off…"
 
 	para "Huh? It has MAIL."
@@ -308,13 +308,13 @@ SlowpokeWellB1FSlowpokeMailText:
 	line "after the house"
 
 	para "with Grandpa and"
-	line "SLOWPOKE."
+	line "YADON."
 
 	para "Love, Dad"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "A SLOWPOKE with"
+	text "A YADON with"
 	line "its TAIL cut off…"
 	done
 

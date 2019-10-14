@@ -250,19 +250,19 @@ OlivineCitySailor2Text:
 	done
 
 OlivineCitySignText:
-	text "OLIVINE CITY"
+	text "ASAGI CITY"
 
 	para "The Port Closest"
 	line "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "OLIVINE PORT"
+	text "ASAGI PORT"
 	line "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
-	text "OLIVINE CITY"
+	text "ASAGI CITY"
 	line "#MON GYM"
 	cont "LEADER: JASMINE"
 
@@ -271,7 +271,7 @@ OlivineGymSignText:
 	done
 
 OlivineLighthouseSignText:
-	text "OLIVINE LIGHTHOUSE"
+	text "ASAGI LIGHTHOUSE"
 	line "Also known as the"
 	cont "GLITTER LIGHTHOUSE"
 	done

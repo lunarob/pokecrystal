@@ -101,7 +101,7 @@ ItemfinderExplanationText:
 	para "Oh yeah--I heard"
 	line "there are items"
 
-	para "in ECRUTEAK's"
+	para "in ENJU's"
 	line "BURNED TOWER."
 	done
 
@@ -112,13 +112,13 @@ EcruteakItemfinderToEachHisOwnText:
 
 EcruteakHistoryBookText:
 	text "HISTORY OF"
-	line "ECRUTEAK"
+	line "ENJU"
 
 	para "Want to read it?"
 	done
 
 EcruteakTwoTowersText:
-	text "In ECRUTEAK, there"
+	text "In ENJU, there"
 	line "were two towers."
 
 	para "Each tower was the"
@@ -137,7 +137,7 @@ EcruteakTwoTowersText:
 	done
 
 EcruteakThreeMonText:
-	text "ECRUTEAK was also"
+	text "ENJU was also"
 	line "home to three"
 
 	para "#MON that raced"

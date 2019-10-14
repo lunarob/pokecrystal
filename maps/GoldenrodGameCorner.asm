@@ -189,7 +189,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	waitbutton
 	setval ABRA
 	special GameCornerPrizeMonCheckDex
-	givepoke ABRA, 5
+	givepoke QWILFISH, 5
 	takecoins GOLDENRODGAMECORNER_ABRA_COINS
 	sjump .loop
 
@@ -207,7 +207,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	waitbutton
 	setval CUBONE
 	special GameCornerPrizeMonCheckDex
-	givepoke CUBONE, 15
+	givepoke WOBBUFFET, 15
 	takecoins GOLDENRODGAMECORNER_CUBONE_COINS
 	sjump .loop
 
@@ -225,7 +225,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	waitbutton
 	setval WOBBUFFET
 	special GameCornerPrizeMonCheckDex
-	givepoke WOBBUFFET, 15
+	givepoke PORYGON, 15
 	takecoins GOLDENRODGAMECORNER_WOBBUFFET_COINS
 	sjump .loop
 
@@ -238,9 +238,9 @@ GoldenrodGameCornerPrizeMonVendorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ABRA        100@"
-	db "CUBONE      800@"
-	db "WOBBUFFET  1500@"
+	db "HARYSEN     100@"
+	db "SONANS      800@"
+	db "PORYGON    1500@"
 	db "CANCEL@"
 
 GoldenrodGameCornerPharmacistScript:
@@ -384,7 +384,7 @@ if DEF(_CRYSTAL_AU)
 	line "seem different"
 
 	para "from the ones at"
-	line "CELADON CITY!"
+	line "TAMAMUSHI CITY!"
 	done
 else
 	text "I just love this"
@@ -392,7 +392,7 @@ else
 
 	para "It's more of a"
 	line "challenge than the"
-	cont "ones in CELADON."
+	cont "ones in TAMAMUSHI."
 	done
 endc
 

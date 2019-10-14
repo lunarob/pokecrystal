@@ -190,7 +190,7 @@ Route39MiltankText:
 
 SailorEugeneSeenText:
 	text "I just got back to"
-	line "OLIVINE."
+	line "ASAGI."
 
 	para "So how about a"
 	line "#MON battle?"
@@ -246,8 +246,8 @@ PokefanfRuthSeenText:
 ;	line "rains."
 ;
 ;	para "My #MON and I"
-;	line "love to play in"
-;	cont "the rain together."
+;	line "play in the rain"
+;	cont "together."
 ;	done
 
 PokefanfRuthBeatenText:
@@ -321,7 +321,7 @@ PokefanfJaimeBeatenText:
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my MEOWTH at"
+	text "I met my NYARTH at"
 	line "night, right here"
 	cont "on ROUTE 39."
 
@@ -341,8 +341,8 @@ PokefanfJaimeAfterBattleText:
 Route39SignText:
 	text "ROUTE 39"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "ASAGI CITY -"
+	line "ENJU CITY"
 	done
 
 MoomooFarmSignText:

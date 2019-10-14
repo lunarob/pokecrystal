@@ -154,7 +154,7 @@ EcruteakPokecenter1F_BillText2:
 	line "#MON CENTERS."
 
 	para "I have to hurry on"
-	line "back to GOLDENROD"
+	line "back to KOGANE"
 	cont "and see my folks."
 
 	para "Buh-bye!"
@@ -182,7 +182,7 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	para "Where, you ask?"
 
 	para "It's a little past"
-	line "OLIVINE CITY."
+	line "ASAGI CITY."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:

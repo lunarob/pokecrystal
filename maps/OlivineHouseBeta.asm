@@ -29,12 +29,12 @@ OlivineHouseBetaTeacherText:
 	line "got sick, the"
 
 	para "PHARMACIST in"
-	line "ECRUTEAK made some"
+	line "ENJU made some"
 	cont "medicine for me."
 	done
 
 OlivineHouseBetaRhydonText:
-	text "RHYDON: Gugooh!"
+	text "SIDON: Gugooh!"
 	done
 
 OlivineHouseBeta_MapEvents:

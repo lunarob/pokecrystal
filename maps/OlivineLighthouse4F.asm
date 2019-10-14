@@ -48,7 +48,7 @@ SailorKentAfterBattleText:
 	line "I've heard there's"
 
 	para "a good PHARMACY in"
-	line "CIANWOOD."
+	line "TANBA."
 	done
 
 LassConnie1SeenText:

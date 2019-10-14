@@ -110,7 +110,7 @@ UnusedMissingDaughterText:
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
+	text "ENJU used to"
 	line "have two towers:"
 
 	para "one each in the"
@@ -158,7 +158,7 @@ EcruteakCityLass2Text_ReleasedBeasts:
 
 EcruteakCityFisherText:
 	text "I heard a rumor"
-	line "about OLIVINE"
+	line "about ASAGI"
 	cont "LIGHTHOUSE."
 
 	para "The #MON that"
@@ -171,7 +171,7 @@ EcruteakCityFisherText:
 
 EcruteakCityFisherText_JasmineReturned:
 	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
+	line "ASAGI LIGHTHOUSE"
 	cont "has been cured."
 
 	para "Boats can safely"
@@ -206,7 +206,7 @@ EcruteakCityGramps3Text:
 	para "It's a legend that"
 	line "has been passed"
 
-	para "down by ECRUTEAK"
+	para "down by ENJU"
 	line "GYM LEADERS."
 
 	para "Me?"
@@ -217,7 +217,7 @@ EcruteakCityGramps3Text:
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
+	text "ENJU CITY"
 	line "A Historical City"
 
 	para "Where the Past"
@@ -233,7 +233,7 @@ TinTowerSignText:
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
+	text "ENJU CITY"
 	line "#MON GYM"
 	cont "LEADER: MORTY"
 
@@ -242,7 +242,7 @@ EcruteakGymSignText:
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
+	text "ENJU DANCE"
 	line "THEATER"
 	done
 
