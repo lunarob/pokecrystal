@@ -13,10 +13,10 @@ Route31VioletGateOfficerScript:
 Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
-Route31VioletGateOfficerText:
+Route31VioletGateOfficerText: ; works?
 	text "Hi there!"
 	line "Did you visit"
-	cont "SPROUT TOWER?"
+	cont "MADATSUBOMI TOWER?"
 	done
 
 Route31VioletGateCooltrainerFText:

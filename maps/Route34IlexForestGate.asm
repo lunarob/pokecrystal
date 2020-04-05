@@ -109,7 +109,7 @@ Route34IlexForestGateTeacher_GotSweetScent:
 
 Route34IlexForestGateTeacher_ForestIsRestless:
 	text "Something's wrong"
-	line "in ILEX FOREST…"
+	line "in UBAME FOREST…"
 
 	para "You should stay"
 	line "away right now."

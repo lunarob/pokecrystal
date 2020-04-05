@@ -453,7 +453,7 @@ CherrygroveRivalText_Seen:
 	done
 
 SilverCherrygroveWinText:
-	text "Well… are you"
+	text "Heh. Are you"
 	line "happy you won?"
 	done
 
@@ -466,10 +466,13 @@ CherrygroveRivalText_YouLost:
 	line "the world's stron-"
 	cont "gest #MON"
 	cont "trainer."
+	
+	para "Now, get out of"
+	line "my way."
 	done
 
 SilverCherrygroveLossText:
-	text "Haha… what a"
+	text "Haha, what a"
 	line "waste of time."
 	done
 
@@ -482,6 +485,9 @@ CherrygroveRivalText_YouWon:
 	line "the world's stron-"
 	cont "gest #MON"
 	cont "trainer."
+	
+	para "Now, get out of"
+	line "my way."
 	done
 
 CherrygroveTeacherText_NoMapCard:

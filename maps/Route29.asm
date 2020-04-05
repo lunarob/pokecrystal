@@ -308,7 +308,7 @@ Route29TeacherText:
 	cont "off them."
 
 	para "But you can go to"
-	line "NEW BARK without"
+	line "WAKABA without"
 
 	para "walking through"
 	line "the grass."
@@ -402,15 +402,15 @@ TuscanyNotTuesdayText:
 Route29Sign1Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "YOSHINO CITY -"
+	line "WAKABA TOWN"
 	done
 
 Route29Sign2Text:
 	text "ROUTE 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "YOSHINO CITY -"
+	line "WAKABA TOWN"
 	done
 
 Route29_MapEvents:

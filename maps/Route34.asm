@@ -518,7 +518,7 @@ YoungsterSamuelBeatenText:
 
 YoungsterSamuelMobileText:
 	text "Have you been to"
-	line "GOLDENROD CITY?"
+	line "KOGANE CITY?"
 
 	para "Weren't you amazed"
 	line "by how they've"

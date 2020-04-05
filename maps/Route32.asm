@@ -544,17 +544,17 @@ Route32CooltrainerMText_AideIsWaiting:
 Route32CooltrainerMText_UnusedSproutTower:
 ; unused
 	text "Have you gone to"
-	line "SPROUT TOWER?"
+	line "MADATSUBOMI TOWER?"
 
 	para "If you ever visit"
-	line "VIOLET CITY, "
+	line "KIKYO CITY, "
 
 	para "they'll expect you"
 	line "to train there."
 
 	para "That's basic for"
 	line "trainers. Go to"
-	cont "SPROUT TOWER!"
+	cont "MADATSUBOMI TOWER!"
 	done
 
 Route32CooltrainerMText_VioletGym:
@@ -578,7 +578,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "the training you"
 
 	para "gave them around"
-	line "VIOLET CITY."
+	line "KIKYO CITY."
 
 	para "The training at"
 	line "the GYM must have"
@@ -587,7 +587,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "helpful."
 
 	para "As a souvenir of"
-	line "VIOLET CITY, take"
+	line "KIKYO CITY, take"
 	cont "this."
 
 	para "It increases the"
@@ -597,7 +597,7 @@ Route32CooltrainerMText_HaveThisSeed:
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Your experiences"
-	line "in VIOLET CITY"
+	line "in KIKYO CITY"
 
 	para "should be useful"
 	line "for your journey."
@@ -819,7 +819,7 @@ PicnickerLiz1AfterText:
 
 BirdKeeperPeterSeenText:
 	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	line "from KIKYO CITY!"
 
 	para "You beat FALKNER?"
 	done
@@ -832,7 +832,7 @@ BirdKeeperPeterBeatenText:
 BirdKeeperPeterAfterText:
 	text "I should train"
 	line "again at the GYM"
-	cont "in VIOLET CITY."
+	cont "in KIKYO CITY."
 	done
 
 Route32UnusedText:
@@ -912,8 +912,8 @@ FriedaNotFridayText:
 Route32SignText:
 	text "ROUTE 32"
 
-	para "VIOLET CITY -"
-	line "AZALEA TOWN"
+	para "KIKYO CITY -"
+	line "HIWADA TOWN"
 	done
 
 Route32RuinsSignText:
@@ -922,7 +922,7 @@ Route32RuinsSignText:
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
+	text "LINKING CAVE"
 	line "AHEAD"
 	done
 

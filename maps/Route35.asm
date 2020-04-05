@@ -399,7 +399,7 @@ BugCatcherArnieBeatenText:
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "My VENONAT won me"
+	text "My KONGPANG won me"
 	line "the Bug-Catching"
 
 	para "Contest at the"
@@ -408,7 +408,7 @@ BugCatcherArnieAfterBattleText:
 
 BugCatcherArnieYanmaText:
 	text "Wow… Look at all"
-	line "those YANMA!"
+	line "those YANYANMA!"
 
 	para "I'm so blown away,"
 	line "I can't move."

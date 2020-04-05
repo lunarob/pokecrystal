@@ -161,7 +161,7 @@ UnknownText_0x6c414:
 	line "some RAGECANDYBAR?"
 
 	para "It's the thing to"
-	line "eat in MAHOGANY!"
+	line "eat in CHOHJI!"
 	done
 
 MahogayMart1FPharmacistText_LanceEntered:
@@ -175,7 +175,7 @@ MahogayMart1FBlackBeltText:
 	line "ment worked like a"
 	cont "charm."
 
-	para "MAGIKARP are just"
+	para "KOIKING are just"
 	line "worthless, but"
 
 	para "GYARADOS are big"
@@ -190,7 +190,7 @@ MahogayMart1FBlackBeltText_LanceEntered:
 	done
 
 UnknownText_0x6c52a:
-	text "LANCE: DRAGONITE,"
+	text "LANCE: KAIRYU,"
 	line "HYPER BEAM."
 	done
 

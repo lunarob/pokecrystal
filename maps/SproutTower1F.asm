@@ -68,16 +68,17 @@ SproutTower1FSage1Text:
 	cont "obtain an HM."
 	done
 
-SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
+SproutTower1FSage2Text: ; works?
+	text "MADATSUBOMI"
+	line "TOWER was built"
+	cont "long ago as a"
 
-	para "as a place for"
-	line "#MON training."
+	para "place for #MON"
+	line "training."
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
+	text "A MADATSUBOMI over"
 	line "100 feet tall…"
 
 	para "People say that it"

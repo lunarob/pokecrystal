@@ -366,8 +366,8 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "ROUTE 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "KIKYO CITY -"
+	line "YOSHINO CITY"
 	done
 
 MrPokemonsHouseDirectionsSignText:

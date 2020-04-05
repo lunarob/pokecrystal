@@ -257,13 +257,13 @@ AzaleaTownRivalBeforeText:
 	cont "Well? Yeah right."
 
 	para "They're much"
-	line "bigger than you"
-	cont "think they are."
+	line "bigger than some"
+	cont "kids in a well."
 	
 	para "Anyway…"
 	
 	para "Let's see how"
-	line "your weak #MON"
+	line "weak your #MON"
 	cont "are!"
 	done
 
@@ -271,8 +271,8 @@ AzaleaTownRivalWinText:
 	text "… Useless #MON!"
 
 	para "You only won"
-	line "because my #MON"
-	cont "are weak."
+	line "because mine are"
+	cont "the weak ones."
 	done
 
 AzaleaTownRivalAfterText:
@@ -300,11 +300,8 @@ AzaleaTownRivalAfterText:
 
 	para "I hate them all."
 
-	para "Just stay out of"
-	line "my way. You're"
-
-	para "only a distraction"
-	line "to my goal."
+	para "Now, just stay out"
+	line "of my way."
 	done
 
 AzaleaTownRivalLossText:

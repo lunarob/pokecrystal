@@ -401,14 +401,14 @@ Route31YoungsterText:
 	cont "FALKNER."
 
 	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	line "KIKYO CITY's GYM."
 	done
 
 Route31SignText:
 	text "ROUTE 31"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "KIKYO CITY -"
+	line "YOSHINO CITY"
 	done
 
 DarkCaveSignText:

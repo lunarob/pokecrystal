@@ -566,8 +566,8 @@ JohtoGrassWildMons:
 	db 10, HOOTHOOT
 	db 10, PSYDUCK
 	db 8, PIKACHU ; added
-	db 9, PINECO ; added
-	db 9, PINECO ; added
+	db 10, PARAS ; added
+	db 10, PARAS ; added
 
 	map_id MOUNT_MORTAR_1F_OUTSIDE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -1250,7 +1250,7 @@ JohtoGrassWildMons:
 	db 4, LEDYBA
 	db 4, CATERPIE
 	db 5, BELLSPROUT
-	db 5, ABRA ;edit
+	db 5, PIDGEY
 	db 4, WEEDLE
 	db 5, HOPPIP
 	db 5, HOPPIP
@@ -1258,7 +1258,7 @@ JohtoGrassWildMons:
 	db 4, PIDGEY
 	db 4, CATERPIE
 	db 5, BELLSPROUT
-	db 5, ABRA ;edit
+	db 5, PIDGEY
 	db 4, WEEDLE
 	db 5, HOPPIP
 	db 5, HOPPIP
@@ -1487,32 +1487,32 @@ JohtoGrassWildMons:
 	db 12, ELECTABUZZ ;edit
 	db 12, ELECTABUZZ ;edit
 
-	map_id ROUTE_42
+	map_id ROUTE_42 ; LEVELS UP 1
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 13, EKANS
-	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
-	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 14, EKANS
+	db 15, SPEAROW
+	db 16, RATTATA
+	db 17, RATICATE
+	db 16, ARBOK
+	db 17, FEAROW
+	db 17, FEAROW
 	; day
-	db 13, EKANS
-	db 14, SPEAROW
-	db 15, RATTATA
-	db 16, RATICATE
-	db 15, ARBOK
-	db 16, FEAROW
-	db 16, FEAROW
+	db 14, EKANS
+	db 15, SPEAROW
+	db 16, RATTATA
+	db 17, RATICATE
+	db 16, ARBOK
+	db 17, FEAROW
+	db 17, FEAROW
 	; nite
-	db 13, RATTATA
-	db 14, ZUBAT
-	db 15, RATICATE
-	db 16, GOLBAT
-	db 15, MARILL
-	db 16, GOLBAT
-	db 16, GOLBAT
+	db 14, RATTATA
+	db 15, ZUBAT
+	db 16, RATICATE
+	db 17, GOLBAT
+	db 16, MARILL
+	db 17, GOLBAT
+	db 17, GOLBAT
 
 	map_id ROUTE_43
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -1603,24 +1603,24 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, PHANPY
-	db 2, IGGLYBUFF ;edit
-	db 2, IGGLYBUFF ;edit
+	db 2, JIGGLYPUFF ;edit
+	db 2, JIGGLYPUFF ;edit
 	; day
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, PHANPY ;edit
-	db 2, IGGLYBUFF ;edit
-	db 2, IGGLYBUFF ;edit
+	db 2, JIGGLYPUFF ;edit
+	db 2, JIGGLYPUFF ;edit
 	; nite
 	db 2, GEODUDE
 	db 2, RATTATA
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, RATTATA
-	db 2, CLEFFA ;edit
-	db 2, CLEFFA ;edit
+	db 2, CLEFAIRY ;edit
+	db 2, CLEFAIRY ;edit
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

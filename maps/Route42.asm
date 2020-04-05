@@ -291,19 +291,19 @@ PokemaniacShaneAfterBattleText:
 Route42Sign1Text:
 	text "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "ENJU CITY -"
+	line "CHOHJI TOWN"
 	done
 
 MtMortarSign1Text:
-	text "MT.MORTAR"
+	text "MT.SURIBACHI"
 
 	para "WATERFALL CAVE"
 	line "INSIDE"
 	done
 
 MtMortarSign2Text:
-	text "MT.MORTAR"
+	text "MT.SURIBACHI"
 
 	para "WATERFALL CAVE"
 	line "INSIDE"
@@ -312,8 +312,8 @@ MtMortarSign2Text:
 Route42Sign2Text:
 	text "ROUTE 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "ENJU CITY -"
+	line "CHOHJI TOWN"
 	done
 
 Route42_MapEvents:

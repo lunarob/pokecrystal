@@ -46,7 +46,7 @@ PokemonNames::
 	db "RUFFRESIA@"
 	db "PARAS@@@@@"
 	db "PARASECT@@"
-	db "KONPAN@@@@"
+	db "KONGPANG@@"
 	db "MORPHON@@@"
 	db "DIGDA@@@@@"
 	db "DUGTRIO@@@"
