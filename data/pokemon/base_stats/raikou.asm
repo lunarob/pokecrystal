@@ -1,6 +1,6 @@
 	db RAIKOU ; 243
 
-	db  90,  85,  75, 115, 115, 100
+	db  93,  88,  78, 119, 119, 103 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

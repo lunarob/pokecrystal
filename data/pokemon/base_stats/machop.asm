@@ -1,6 +1,6 @@
 	db MACHOP ; 066
 
-	db  70,  80,  50,  35,  35,  35
+	db  65,  75,  47,  33,  33,  33 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIGHTING, FIGHTING ; type

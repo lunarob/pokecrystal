@@ -1,6 +1,6 @@
 	db CATERPIE ; 010
 
-	db  45,  30,  35,  45,  20,  20
+	db  66,  44,  51,  66,  29,  29 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type

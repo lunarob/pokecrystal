@@ -1,6 +1,6 @@
 	db RHYDON ; 112
 
-	db 105, 130, 120,  40,  45,  45
+	db 103, 127, 118,  39,  44,  44 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, ROCK ; type

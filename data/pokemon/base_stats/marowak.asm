@@ -1,6 +1,6 @@
 	db MAROWAK ; 105
 
-	db  60,  80, 110,  70,  50,  80
+	db  67,  89, 123,  50,  56,  89 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db GROUND, GROUND ; type

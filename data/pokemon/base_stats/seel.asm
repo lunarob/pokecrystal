@@ -1,6 +1,6 @@
 	db SEEL ; 086
 
-	db  65,  45,  55,  45,  45,  70
+	db  60,  42,  51,  42,  42,  65 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type

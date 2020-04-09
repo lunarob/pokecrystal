@@ -1,6 +1,6 @@
 	db TEDDIURSA ; 216
 
-	db  60,  80,  50,  40,  50,  50
+	db  55,  73,  45,  36,  45,  45 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

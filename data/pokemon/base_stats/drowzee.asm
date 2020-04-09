@@ -1,6 +1,6 @@
 	db DROWZEE ; 096
 
-	db  60,  48,  45,  42,  43,  90
+	db  55,  44,  41,  38,  39,  82 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db PSYCHIC, PSYCHIC ; type

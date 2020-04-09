@@ -1,6 +1,6 @@
 	db NIDOKING ; 034
 
-	db  81,  97,  77,  85,  90,  75
+	db  80, 101,  76,  84,  84,  74 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db POISON, GROUND ; type

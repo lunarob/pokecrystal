@@ -1,6 +1,6 @@
 	db TOGEPI ; 175
 
-	db  35,  20,  65,  20,  40,  65
+	db  43,  24,  80,  24,  49,  80 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

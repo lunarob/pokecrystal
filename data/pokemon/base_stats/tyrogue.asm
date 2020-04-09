@@ -1,6 +1,6 @@
 	db TYROGUE ; 236
 
-	db  35,  35,  35,  35,  35,  35
+	db  50,  50,  50,  50,  50,  50 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIGHTING, FIGHTING ; type

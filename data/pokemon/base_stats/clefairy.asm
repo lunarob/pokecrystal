@@ -1,6 +1,6 @@
 	db CLEFAIRY ; 035
 
-	db  70,  45,  48,  35,  60,  65
+	db  81,  52,  56,  41,  70,  75 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type

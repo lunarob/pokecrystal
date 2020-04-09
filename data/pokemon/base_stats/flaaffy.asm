@@ -1,6 +1,6 @@
 	db FLAAFFY ; 180
 
-	db  70,  55,  55,  45,  80,  60
+	db  72,  57,  57,  46,  82,  62 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

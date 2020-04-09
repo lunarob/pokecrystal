@@ -1,6 +1,6 @@
 	db MOLTRES ; 146
 
-	db  90, 100,  90,  90, 125,  85
+	db  93, 103,  93,  93, 129,  88 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FLYING ; type

@@ -1,6 +1,6 @@
 	db VOLTORB ; 100
 
-	db  40,  30,  50, 100,  55,  55
+	db  36,  27,  45,  91,  50,  50 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db ELECTRIC, ELECTRIC ; type

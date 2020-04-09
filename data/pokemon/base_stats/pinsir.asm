@@ -1,6 +1,6 @@
 	db PINSIR ; 127
 
-	db  65, 125, 100,  85,  55,  70
+	db  68, 130, 104,  88,  57,  73 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, BUG ; type

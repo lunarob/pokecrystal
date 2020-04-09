@@ -1,6 +1,6 @@
 	db FLAREON ; 136
 
-	db  110, 130,  65,  95,  60, 65
+	db  59, 118,  54,  59,  86, 100 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type

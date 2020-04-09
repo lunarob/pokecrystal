@@ -1,6 +1,6 @@
 	db LANTURN ; 171
 
-	db 125,  58,  58,  67,  86,  86
+	db 129,  60,  60,  69,  78,  78 ;
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, ELECTRIC ; type
