@@ -776,7 +776,7 @@ NamePlayer:
 	ret
 
 .Chris:
-	db "CHRIS@@@@@@"
+	db "ETHAN@@@@@@"
 .Kris:
 	db "KRIS@@@@@@@"
 
