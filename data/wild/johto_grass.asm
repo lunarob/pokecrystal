@@ -407,59 +407,59 @@ JohtoGrassWildMons:
 	db 5, UNOWN
 	db 5, UNOWN
 
-	map_id UNION_CAVE_1F
+	map_id UNION_CAVE_1F ; up 1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 5, ZUBAT
-	db 4, CUBONE ;edit
-	db 4, ABRA ;edited added
-	db 6, ONIX
-	db 6, ONIX
+	db 7, GEODUDE
+	db 7, SANDSHREW
+	db 6, ZUBAT
+	db 7, ONIX ;edit
+	db 5, ABRA ;edited added
+	db 5, CUBONE ; switch with ONIX
+	db 5, CUBONE
 	; day
-	db 6, GEODUDE
-	db 6, SANDSHREW
-	db 5, ZUBAT
-	db 4, CUBONE ;edit
-	db 4, ABRA ;edited added
-	db 6, ONIX
-	db 6, ONIX
+	db 7, GEODUDE
+	db 7, SANDSHREW
+	db 6, ZUBAT
+	db 7, ONIX ;edit
+	db 5, ABRA ;edited added
+	db 5, CUBONE ; switch with ONIX
+	db 5, CUBONE
 	; nite
-	db 6, GEODUDE
-	db 6, RATTATA
-	db 5, WOOPER
-	db 4, SANDSHREW ; edited
-	db 4, ABRA ;edited added
-	db 6, ONIX
-	db 6, ONIX
+	db 7, GEODUDE
+	db 7, RATTATA
+	db 6, WOOPER
+	db 5, SANDSHREW ; edited
+	db 5, ABRA ;edited added
+	db 7, ONIX
+	db 7, ONIX
 
-	map_id UNION_CAVE_B1F
+	map_id UNION_CAVE_B1F ; up 1
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
 	; morn
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
-	db 8, ONIX
-	db 6, CUBONE ;edit
-	db 8, RATTATA
-	db 8, RATTATA
+	db 9, GEODUDE
+	db 7, ZUBAT
+	db 9, ZUBAT
+	db 9, ONIX
+	db 7, CUBONE ;edit
+	db 9, RATTATA
+	db 9, RATTATA
 	; day
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, ZUBAT
-	db 8, ONIX
-	db 6, CUBONE ;edit
-	db 8, RATTATA
-	db 8, RATTATA
+	db 9, GEODUDE
+	db 7, ZUBAT
+	db 9, ZUBAT
+	db 9, ONIX
+	db 7, CUBONE ;edit
+	db 9, RATTATA
+	db 9, RATTATA
 	; nite
-	db 8, GEODUDE
-	db 6, ZUBAT
-	db 8, WOOPER
-	db 8, ONIX
-	db 6, CUBONE ;edited added
-	db 8, RATTATA
-	db 8, RATTATA
+	db 9, GEODUDE
+	db 7, ZUBAT
+	db 9, WOOPER
+	db 9, ONIX
+	db 7, CUBONE ;edited added
+	db 9, RATTATA
+	db 9, RATTATA
 
 	map_id UNION_CAVE_B2F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -488,32 +488,32 @@ JohtoGrassWildMons:
 	db 23, ONIX
 	db 23, ONIX
 
-	map_id SLOWPOKE_WELL_B1F
+	map_id SLOWPOKE_WELL_B1F ; up 3
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
 	; morn
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8,  ZUBAT
+	db 9,  ZUBAT
+	db 10, ZUBAT
+	db 9,  SLOWPOKE
+	db 11, ZUBAT
+	db 11, SLOWPOKE
+	db 11, SLOWPOKE
 	; day
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8,  ZUBAT
+	db 9,  ZUBAT
+	db 10, ZUBAT
+	db 9,  SLOWPOKE
+	db 11, ZUBAT
+	db 11, SLOWPOKE
+	db 11, SLOWPOKE
 	; nite
-	db 5, ZUBAT
-	db 6, ZUBAT
-	db 7, ZUBAT
-	db 6, SLOWPOKE
-	db 8, ZUBAT
-	db 8, SLOWPOKE
-	db 8, SLOWPOKE
+	db 8,  ZUBAT
+	db 9,  ZUBAT
+	db 10, ZUBAT
+	db 9,  SLOWPOKE
+	db 11, ZUBAT
+	db 11, SLOWPOKE
+	db 11, SLOWPOKE
 
 	map_id SLOWPOKE_WELL_B2F
 	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
